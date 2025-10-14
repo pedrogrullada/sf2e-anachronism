@@ -176,11 +176,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.943,
+      "version": 0.946,
       "previous": {
         "schema": 0.943,
-        "foundry": "13.348",
-        "system": "7.5.1"
+        "foundry": "13.350",
+        "system": "7.5.2"
       }
     },
     "abilities": {
@@ -249,243 +249,8 @@
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Void Healing",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "defensive",
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
-          "gm": ""
-        },
-        "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Monster Core",
-          "authors": ""
-        },
-        "rules": [
-          {
-            "key": "ActiveEffectLike",
-            "mode": "override",
-            "path": "system.attributes.hp.negativeHealing",
-            "value": true
-          }
-        ],
-        "traits": {
-          "value": [],
-          "otherTags": []
-        },
-        "slug": "void-healing",
-        "_migration": {
-          "version": 0.943,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.1"
-          }
-        }
-      },
-      "type": "action",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_id": "cbWggyHCoIrr0zzI",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!dxbr3LNg0R66Aj1n.cbWggyHCoIrr0zzI"
-    },
-    {
-      "type": "action",
-      "name": "Cybernetics",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "description": {
-          "value": "<p>A cybernetic zombie's cybernetics can be disabled for 1 hour by a creature that succeeds at a DC 15 check to [[/act disable-device]] or Disable a System. Attempting to do so can typically be done only while within reach of the zombie and is a 2-action activity that has the manipulate trait. The cybernetics are also disabled for 1 hour if the zombie takes any electricity damage. A cybernetic zombie with disabled cybernetics is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use any reactions.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "_migration": {
-          "version": 0.943,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.1"
-          }
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "defensive",
-        "deathNote": false
-      },
-      "effects": [],
-      "_id": "mD7D8tNwPpNbieSX",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!dxbr3LNg0R66Aj1n.mD7D8tNwPpNbieSX"
-    },
-    {
-      "type": "action",
-      "name": "Self-Destruct",
-      "system": {
-        "actionType": {
-          "value": "reaction"
-        },
-        "description": {
-          "value": "<p>A cybernetic zombie must use this reaction unless its cybernetics are disabled</p><p><strong>Trigger</strong> The cybernetic zombie is reduced to 0 Hit Points</p><hr /><p><strong>Effect</strong> The zombie's damaged cybernetics explode, dealing @Damage[1d8[electricity]|options:area-damage] damage in a @Template[type:emanation|distance:10] (@Check[reflex|dc:15|basic] save). This ability destroys the zombie's integrated items and any tech items on the zombie of 1st level or lower.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "_migration": {
-          "version": 0.943,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.1"
-          }
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "defensive",
-        "deathNote": false
-      },
-      "effects": [],
-      "_id": "aI0QvDeNzeHBBXGz",
-      "img": "systems/pf2e/icons/actions/Reaction.webp",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!dxbr3LNg0R66Aj1n.aI0QvDeNzeHBBXGz"
-    },
-    {
-      "type": "melee",
-      "name": "Fist",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.943,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.1"
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "damageRolls": {
-          "UVhpTEZPQZSwbHs5": {
-            "damage": "1d6+2",
-            "damageType": "bludgeoning",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 4
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "_id": "XVBfcvLwiZkqojZX",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!dxbr3LNg0R66Aj1n.XVBfcvLwiZkqojZX"
-    },
-    {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Integrated Laser Pistol",
+      "name": "Integrated Commercial Laser Pistol",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -496,12 +261,12 @@
         "rules": [],
         "slug": "laser-pistol",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
             "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -610,19 +375,90 @@
       "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/pistol.webp",
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "sort": 3200000,
-      "_id": "X2KkCDed9BKvosda",
+      "_id": "3W7vk1aqhkW3eMYv",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!dxbr3LNg0R66Aj1n.X2KkCDed9BKvosda"
+      "_key": "!actors.items!dxbr3LNg0R66Aj1n.3W7vk1aqhkW3eMYv"
+    },
+    {
+      "_id": "LDa9NPg9qHgnO0ue",
+      "name": "Laser Pistol",
+      "type": "melee",
+      "system": {
+        "slug": "laser-pistol",
+        "bonus": {
+          "value": 6
+        },
+        "damageRolls": {
+          "vaHAnjqjp9scny8q": {
+            "damage": "1d6",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "range-increment-40",
+            "reload-1",
+            "tech"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "3W7vk1aqhkW3eMYv"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dxbr3LNg0R66Aj1n.LDa9NPg9qHgnO0ue"
     },
     {
       "name": "Battery (Commercial)",
@@ -636,12 +472,12 @@
         "rules": [],
         "slug": "battery-commercial",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
             "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -673,7 +509,8 @@
         "price": {
           "value": {
             "sp": 10
-          }
+          },
+          "per": 1
         },
         "equipped": {
           "carryType": "worn"
@@ -713,46 +550,208 @@
       "img": "modules/sf2e-anachronism/art/icons/equipment/other/green-battery.webp",
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "folder": "F6h7fO0Z7cgQBVRD",
       "sort": 200000,
-      "_id": "VHmswv4kJwPTJW44",
+      "_id": "HeaIERqr3jb1Dw1x",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!dxbr3LNg0R66Aj1n.VHmswv4kJwPTJW44"
+      "_key": "!actors.items!dxbr3LNg0R66Aj1n.HeaIERqr3jb1Dw1x"
     },
     {
-      "_id": "tWWgdBEr7RiDXrFb",
-      "name": "Laser Pistol",
-      "type": "melee",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Void Healing",
       "system": {
-        "slug": "laser-pistol",
-        "bonus": {
-          "value": 6
+        "actionType": {
+          "value": "passive"
         },
-        "damageRolls": {
-          "9k7Z7CbhJZPPvD4f": {
-            "damage": "1d6+4",
-            "damageType": "fire",
-            "category": null
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
           }
-        },
+        ],
         "traits": {
-          "value": [
-            "range-increment-40",
-            "reload-1",
-            "tech"
-          ],
+          "value": [],
           "otherTags": []
         },
+        "slug": "void-healing",
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "Mpu2ekxgkzkk1ajk",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dxbr3LNg0R66Aj1n.Mpu2ekxgkzkk1ajk"
+    },
+    {
+      "type": "action",
+      "name": "Cybernetics",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>A cybernetic zombie's cybernetics can be disabled for 1 hour by a creature that succeeds at a DC 15 check to [[/act disable-device]] or Disable a System. Attempting to do so can typically be done only while within reach of the zombie and is a 2-action activity that has the manipulate trait. The cybernetics are also disabled for 1 hour if the zombie takes any electricity damage. A cybernetic zombie with disabled cybernetics is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use any reactions.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
         "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "1jwtCEbqSg6bax6j",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dxbr3LNg0R66Aj1n.1jwtCEbqSg6bax6j"
+    },
+    {
+      "type": "action",
+      "name": "Self-Destruct",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "description": {
+          "value": "<p>A cybernetic zombie must use this reaction unless its cybernetics are disabled</p><p><strong>Trigger</strong> The cybernetic zombie is reduced to 0 Hit Points</p><hr /><p><strong>Effect</strong> The zombie's damaged cybernetics explode, dealing @Damage[1d8[electricity]|options:area-damage] damage in a @Template[type:emanation|distance:10] (@Check[reflex|dc:15|basic] save). This ability destroys the zombie's integrated items and any tech items on the zombie of 1st level or lower.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": true
+      },
+      "effects": [],
+      "_id": "Zx0XyGM5Cen5IMyv",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!dxbr3LNg0R66Aj1n.Zx0XyGM5Cen5IMyv"
+    },
+    {
+      "type": "melee",
+      "name": "Fist",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
         "description": {
           "value": "",
           "gm": ""
@@ -763,39 +762,45 @@
           "license": "OGL",
           "remaster": false
         },
-        "_migration": {
-          "version": 0.943,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.348",
-            "system": "7.5.1"
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "damageRolls": {
+          "9IGB4H2VI1zn1nfr": {
+            "damage": "1d6+2",
+            "damageType": "bludgeoning",
+            "category": null
           }
+        },
+        "bonus": {
+          "value": 4
         },
         "attackEffects": {
           "value": []
-        }
+        },
+        "action": "strike",
+        "area": null
       },
-      "flags": {
-        "pf2e": {
-          "linkedWeapon": "X2KkCDed9BKvosda"
-        }
-      },
+      "_id": "ANaOldZrtu58Klzs",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "effects": [],
       "folder": null,
       "sort": 0,
+      "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!dxbr3LNg0R66Aj1n.tWWgdBEr7RiDXrFb"
+      "_key": "!actors.items!dxbr3LNg0R66Aj1n.ANaOldZrtu58Klzs"
     }
   ],
   "flags": {},
@@ -803,13 +808,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0,
-    "qA45GVv5hySaf9b5": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!actors!dxbr3LNg0R66Aj1n"

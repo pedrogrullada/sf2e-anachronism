@@ -1,7 +1,7 @@
 {
-  "type": "npc",
   "folder": null,
-  "name": "Thermatrod",
+  "name": "Repair-Class Security Robot",
+  "type": "npc",
   "prototypeToken": {
     "flags": {
       "pf2e": {
@@ -9,9 +9,9 @@
         "autoscale": true
       }
     },
-    "height": 2,
-    "width": 2,
-    "name": "Thermatrod",
+    "height": 1,
+    "width": 1,
+    "name": "Repair-Class Security Robot",
     "displayName": 20,
     "actorLink": false,
     "texture": {
@@ -105,13 +105,13 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 45,
+        "value": 8,
         "temp": 0,
-        "max": 45,
+        "max": 8,
         "details": ""
       },
       "ac": {
-        "value": 18,
+        "value": 14,
         "details": ""
       },
       "allSaves": {
@@ -124,13 +124,49 @@
       },
       "immunities": [
         {
-          "type": "fire"
+          "type": "bleed"
+        },
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "doomed"
+        },
+        {
+          "type": "drained"
+        },
+        {
+          "type": "fatigued"
+        },
+        {
+          "type": "healing"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "nonlethal-attacks"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "sickened"
+        },
+        {
+          "type": "unconscious"
         }
       ],
       "weaknesses": [
         {
-          "type": "cold",
-          "value": 5
+          "type": "electricity",
+          "value": 1
         }
       ]
     },
@@ -143,10 +179,10 @@
         "details": ""
       },
       "level": {
-        "value": 3
+        "value": -1
       },
       "blurb": "",
-      "publicNotes": "<p>A standard thermatrod dwells near volcanic vents and other sources of intense heat.</p><hr /><p>Originally thought to be exiles from the Plane of Fire, thermatrods actually developed independently in multiple star systems in the Universe. A thermatrod resembles a molten bipedal creature, though they often walk on their front knuckles to support their heavy frames. Thermatrods sport distinctive raised dorsal plates that resemble hexagonal basalt columns, which researchers use to estimate an individual's age. A thermatrod's hardened exterior varies greatly based on local mineral deposits that make up a thermatrod's diet.</p>",
+      "publicNotes": "<p>On many scrappy starships and remote space stations, it's hard to afford dedicated security robots, especially if you can't manage to secure a license to own them in the first place. Most such operations rely on cheap maintenance bots to step up and repel intruders—they might not get the job done against serious threats, but they might be able to take out common vermin before they can cause too much damage to the starship's circuitry. After all, sometimes the best maintenance is preventive maintenance.</p><hr /><p>Security robots are ubiquitous throughout industrialized space and have major presences in both the Pact Worlds and Veskarium, employed and customized by corporations and private citizens alike.</p><p>While most soldier robot models are built to be as destructive as possible, and elimination robots are designed to kill, security robots usually have fail-safes programmed into their behavior to prevent them from causing any more violence than is necessary to perform their designated security function. This makes them especially useful in cities, where unintended destruction might harm bystanders or cause legal issues, and even on starships, where a stray laser blast might cause serious damage to vital starship systems.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Starfinder Alien Core",
@@ -166,16 +202,16 @@
     },
     "abilities": {
       "str": {
-        "mod": 4
-      },
-      "dex": {
         "mod": 1
       },
+      "dex": {
+        "mod": 3
+      },
       "con": {
-        "mod": 4
+        "mod": 2
       },
       "int": {
-        "mod": 0
+        "mod": 1
       },
       "wis": {
         "mod": 0
@@ -185,59 +221,64 @@
       }
     },
     "perception": {
-      "details": "temperature sense (precise) 60 feet",
-      "mod": 9,
-      "senses": [],
-      "vision": false
+      "details": "",
+      "mod": 8,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
     },
     "saves": {
       "fortitude": {
-        "value": 12,
+        "value": 5,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 9,
+        "value": 8,
         "saveDetail": ""
       },
       "will": {
-        "value": 7,
+        "value": 2,
         "saveDetail": ""
       }
     },
     "skills": {
       "acrobatics": {
-        "base": 7
+        "base": 4
       },
       "athletics": {
-        "base": 10
+        "base": 2
       },
-      "intimidation": {
-        "base": 9
+      "computers": {
+        "base": 2
       }
     },
     "traits": {
       "value": [
-        "beast",
-        "fire"
+        "construct",
+        "robot",
+        "tech"
       ],
       "rarity": "common",
       "size": {
-        "value": "lg"
+        "value": "sm"
       }
     }
   },
-  "_id": "9Glg5ae0zQtosEUD",
+  "_id": "rl5p1LLCpKh16viU",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
       "type": "action",
-      "name": "Temperature Sense",
+      "name": "Exigency",
       "system": {
         "actionType": {
-          "value": "passive"
+          "value": "reaction"
         },
         "description": {
-          "value": "<p>A thermatrod can detect nearby changes in temperature as a precise sense to detect living creatures and other heat sources.</p>",
+          "value": "<p><strong>Frequency</strong> once every 10 minutes</p><p><strong>Trigger</strong> A creature targets the security robot with an attack</p><hr /><p><strong>Effect</strong> The robot overclocks its processing power to attempt to avoid an attack, gaining a +2 circumstance bonus to its AC against the triggering attack.</p>",
           "gm": ""
         },
         "publication": {
@@ -263,37 +304,110 @@
         "actions": {
           "value": null
         },
-        "category": "interaction",
-        "deathNote": false
+        "category": "defensive",
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "PT10M"
+        }
       },
       "effects": [],
-      "_id": "fhoeskPq6jtIIHF6",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "_id": "zihVtY9YWW6WBmp4",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.fhoeskPq6jtIIHF6"
+      "_key": "!actors.items!rl5p1LLCpKh16viU.zihVtY9YWW6WBmp4"
     },
     {
-      "type": "action",
-      "name": "Melting Aura",
+      "type": "melee",
+      "name": "Slam",
+      "effects": [],
       "system": {
-        "actionType": {
-          "value": "passive"
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
         },
         "description": {
-          "value": "<p>10 feet. A creature that begins its turn within this aura takes @Damage[1d6[fire]] damage (@Check[fortitude|dc:17|basic] save).</p>",
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "damageRolls": {
+          "RfqQzuTY8q36OjPi": {
+            "damage": "1d4+1",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 4
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
+      },
+      "_id": "ZxnbOwXdcOaZMUSR",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!rl5p1LLCpKh16viU.ZxnbOwXdcOaZMUSR"
+    },
+    {
+      "type": "melee",
+      "name": "Welding Torch",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "description": {
+          "value": "",
           "gm": ""
         },
         "publication": {
@@ -307,52 +421,52 @@
         "traits": {
           "otherTags": [],
           "value": [
-            "aura",
-            "fire"
+            "range-increment-5"
           ]
         },
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
+        "damageRolls": {
+          "MIvuNaYeYgApN0Kz": {
+            "damage": "1d4+1",
+            "damageType": "fire",
+            "category": null
           }
         },
-        "actions": {
-          "value": null
+        "bonus": {
+          "value": 5
         },
-        "category": "defensive",
-        "deathNote": false
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
       },
-      "effects": [],
-      "_id": "9buF1xxiu62UB284",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "_id": "MYd7uL3D4A4jzwoV",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.9buF1xxiu62UB284"
+      "_key": "!actors.items!rl5p1LLCpKh16viU.MYd7uL3D4A4jzwoV"
     },
     {
       "type": "action",
-      "name": "Slag Barrage",
+      "name": "Fire Suppressor",
       "system": {
         "actionType": {
           "value": "action"
         },
         "description": {
-          "value": "<p>The thermatrod sprays part of its molten core in a @Template[type:cone|distance:15] that hardens moments later. Each creature in the area takes @Damage[4d6[fire]|options:area-damage] damage (@Check[reflex|dc:20|basic] save). A creature that fails the save is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} ([[/act escape dc=20]]). The thermatrod can't use Slag Barrage again for [[/gmr 1d4 #Recharge Slag Barrage]]{1d4 rounds}.</p>",
+          "value": "<p>The robot sprays a torrent of water that functions as @UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]{hydraulic push} (1st-rank, DC 16). The robot must refill its tanks after using this ability.</p>",
           "gm": ""
         },
         "publication": {
@@ -382,161 +496,23 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "W3JJwbimJYguvO32",
+      "_id": "wCfkobDVQSb6oNBj",
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.W3JJwbimJYguvO32"
-    },
-    {
-      "type": "melee",
-      "name": "Fist",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "reach-10"
-          ]
-        },
-        "damageRolls": {
-          "O1dugSPe5adtwPil": {
-            "damage": "1d8+4",
-            "damageType": "bludgeoning",
-            "category": null
-          },
-          "K6yiHCWoq9YFcqcw": {
-            "damage": "1d6",
-            "damageType": "fire",
-            "category": "persistent"
-          }
-        },
-        "bonus": {
-          "value": 12
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "action": "strike",
-        "area": null
-      },
-      "_id": "EHBpMsJunbVfVM5t",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.EHBpMsJunbVfVM5t"
-    },
-    {
-      "type": "melee",
-      "name": "Lava Blob",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "propulsive",
-            "range-increment-30"
-          ]
-        },
-        "damageRolls": {
-          "mBuGHKjOaz4Q6rPT": {
-            "damage": "1d6+2",
-            "damageType": "fire",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 10
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "action": "strike",
-        "area": null
-      },
-      "_id": "GvFjmjjzQ1xq9c2o",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.GvFjmjjzQ1xq9c2o"
+      "_key": "!actors.items!rl5p1LLCpKh16viU.wCfkobDVQSb6oNBj"
     }
   ],
   "flags": {},
@@ -549,8 +525,9 @@
     "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
   },
   "sort": 0,
-  "_key": "!actors!9Glg5ae0zQtosEUD"
+  "_key": "!actors!rl5p1LLCpKh16viU"
 }

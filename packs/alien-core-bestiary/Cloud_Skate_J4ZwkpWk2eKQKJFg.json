@@ -1,7 +1,7 @@
 {
-  "type": "npc",
   "folder": null,
-  "name": "Thermatrod",
+  "name": "Cloud Skate",
+  "type": "npc",
   "prototypeToken": {
     "flags": {
       "pf2e": {
@@ -11,7 +11,7 @@
     },
     "height": 2,
     "width": 2,
-    "name": "Thermatrod",
+    "name": "Cloud Skate",
     "displayName": 20,
     "actorLink": false,
     "texture": {
@@ -105,32 +105,38 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 45,
+        "value": 93,
         "temp": 0,
-        "max": 45,
+        "max": 93,
         "details": ""
       },
       "ac": {
-        "value": 18,
+        "value": 24,
         "details": ""
       },
       "allSaves": {
         "value": ""
       },
       "speed": {
-        "value": 25,
-        "otherSpeeds": [],
+        "value": 5,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 75
+          }
+        ],
         "details": ""
       },
-      "immunities": [
+      "resistances": [
         {
-          "type": "fire"
+          "type": "electricity",
+          "value": 6
         }
       ],
       "weaknesses": [
         {
-          "type": "cold",
-          "value": 5
+          "type": "fire",
+          "value": 6
         }
       ]
     },
@@ -143,10 +149,10 @@
         "details": ""
       },
       "level": {
-        "value": 3
+        "value": 6
       },
       "blurb": "",
-      "publicNotes": "<p>A standard thermatrod dwells near volcanic vents and other sources of intense heat.</p><hr /><p>Originally thought to be exiles from the Plane of Fire, thermatrods actually developed independently in multiple star systems in the Universe. A thermatrod resembles a molten bipedal creature, though they often walk on their front knuckles to support their heavy frames. Thermatrods sport distinctive raised dorsal plates that resemble hexagonal basalt columns, which researchers use to estimate an individual's age. A thermatrod's hardened exterior varies greatly based on local mineral deposits that make up a thermatrod's diet.</p>",
+      "publicNotes": "<p>Cloud skates are skittish creatures that avoid settlements whenever possible. They travel in large packs when in their docile periods and remain in small groups even during their aggressive hunting cycles, making them dangerous to travelers. They navigate through the clouds using three powerful tails, trapping prey with huge, baleen-filled mouths that span the full width of their single-segmented bodies.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Starfinder Alien Core",
@@ -166,59 +172,62 @@
     },
     "abilities": {
       "str": {
-        "mod": 4
+        "mod": 3
       },
       "dex": {
-        "mod": 1
+        "mod": 5
       },
       "con": {
-        "mod": 4
+        "mod": 1
       },
       "int": {
-        "mod": 0
+        "mod": -4
       },
       "wis": {
-        "mod": 0
+        "mod": 2
       },
       "cha": {
-        "mod": 0
+        "mod": -1
       }
     },
     "perception": {
-      "details": "temperature sense (precise) 60 feet",
-      "mod": 9,
-      "senses": [],
-      "vision": false
+      "details": "",
+      "mod": 12,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        }
+      ],
+      "vision": true
     },
     "saves": {
       "fortitude": {
-        "value": 12,
+        "value": 15,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 9,
+        "value": 17,
         "saveDetail": ""
       },
       "will": {
-        "value": 7,
+        "value": 10,
         "saveDetail": ""
       }
     },
     "skills": {
       "acrobatics": {
-        "base": 7
+        "base": 13
       },
       "athletics": {
-        "base": 10
+        "base": 15
       },
-      "intimidation": {
-        "base": 9
+      "stealth": {
+        "base": 13
       }
     },
     "traits": {
       "value": [
-        "beast",
-        "fire"
+        "animal"
       ],
       "rarity": "common",
       "size": {
@@ -226,18 +235,18 @@
       }
     }
   },
-  "_id": "9Glg5ae0zQtosEUD",
+  "_id": "J4ZwkpWk2eKQKJFg",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
       "type": "action",
-      "name": "Temperature Sense",
+      "name": "Explosive Death",
       "system": {
         "actionType": {
           "value": "passive"
         },
         "description": {
-          "value": "<p>A thermatrod can detect nearby changes in temperature as a precise sense to detect living creatures and other heat sources.</p>",
+          "value": "<p>If a cloud skate dies due to fire or electricity damage, its internal reservoirs of explosive gases and combustible fluids detonate in a @Template[type:emanation|distance:20] that deals @Damage[6d8[fire]|options:area-damage] damage (@Check[reflex|dc:21|basic] save).</p>",
           "gm": ""
         },
         "publication": {
@@ -251,65 +260,6 @@
         "traits": {
           "otherTags": [],
           "value": []
-        },
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "interaction",
-        "deathNote": false
-      },
-      "effects": [],
-      "_id": "fhoeskPq6jtIIHF6",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.fhoeskPq6jtIIHF6"
-    },
-    {
-      "type": "action",
-      "name": "Melting Aura",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "description": {
-          "value": "<p>10 feet. A creature that begins its turn within this aura takes @Damage[1d6[fire]] damage (@Check[fortitude|dc:17|basic] save).</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "aura",
-            "fire"
-          ]
         },
         "_migration": {
           "version": 0.946,
@@ -323,36 +273,162 @@
           "value": null
         },
         "category": "defensive",
-        "deathNote": false
+        "deathNote": true
       },
       "effects": [],
-      "_id": "9buF1xxiu62UB284",
+      "_id": "hZTrWR3unDlaRpxj",
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.9buF1xxiu62UB284"
+      "_key": "!actors.items!J4ZwkpWk2eKQKJFg.hZTrWR3unDlaRpxj"
     },
     {
-      "type": "action",
-      "name": "Slag Barrage",
+      "type": "melee",
+      "name": "Tail",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "reach-10"
+          ]
+        },
+        "damageRolls": {
+          "u7fj2tflDEqxCeE0": {
+            "damage": "2d10+5",
+            "damageType": "slashing",
+            "category": null
+          },
+          "HzkxQW2P5R3IfKZ2": {
+            "damage": "2d6",
+            "damageType": "electricity",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
+      },
+      "_id": "VoIjxErSCNWji6zw",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!J4ZwkpWk2eKQKJFg.VoIjxErSCNWji6zw"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Engulf",
       "system": {
         "actionType": {
           "value": "action"
         },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
         "description": {
-          "value": "<p>The thermatrod sprays part of its molten core in a @Template[type:cone|distance:15] that hardens moments later. Each creature in the area takes @Damage[4d6[fire]|options:area-damage] damage (@Check[reflex|dc:20|basic] save). A creature that fails the save is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} ([[/act escape dc=20]]). The thermatrod can't use Slag Barrage again for [[/gmr 1d4 #Recharge Slag Barrage]]{1d4 rounds}.</p>",
+          "value": "<p>@Check[reflex|dc:21], @Damage[(2d6+3)[bludgeoning]] damage, [[/act escape dc=21]], Rupture12</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "engulf",
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "HfBbFjXyxNx7yHwF",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!J4ZwkpWk2eKQKJFg.HfBbFjXyxNx7yHwF"
+    },
+    {
+      "type": "action",
+      "name": "Natural Thruster",
+      "system": {
+        "actionType": {
+          "value": "free"
+        },
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> Until the beginning of its next turn, the cloud skate gains a +75-foot status bonus to its fly Speed and deals an additional @Damage[1d10[slashing]] damage with its tail Strikes.</p>",
           "gm": ""
         },
         "publication": {
@@ -376,167 +452,33 @@
           }
         },
         "actions": {
-          "value": 2
+          "value": null
         },
         "category": "offensive",
-        "deathNote": false
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "PT1H"
+        }
       },
       "effects": [],
-      "_id": "W3JJwbimJYguvO32",
-      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "_id": "1GUs6pHk0o5TrpRL",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.W3JJwbimJYguvO32"
-    },
-    {
-      "type": "melee",
-      "name": "Fist",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "reach-10"
-          ]
-        },
-        "damageRolls": {
-          "O1dugSPe5adtwPil": {
-            "damage": "1d8+4",
-            "damageType": "bludgeoning",
-            "category": null
-          },
-          "K6yiHCWoq9YFcqcw": {
-            "damage": "1d6",
-            "damageType": "fire",
-            "category": "persistent"
-          }
-        },
-        "bonus": {
-          "value": 12
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "action": "strike",
-        "area": null
-      },
-      "_id": "EHBpMsJunbVfVM5t",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.EHBpMsJunbVfVM5t"
-    },
-    {
-      "type": "melee",
-      "name": "Lava Blob",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "propulsive",
-            "range-increment-30"
-          ]
-        },
-        "damageRolls": {
-          "mBuGHKjOaz4Q6rPT": {
-            "damage": "1d6+2",
-            "damageType": "fire",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 10
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "action": "strike",
-        "area": null
-      },
-      "_id": "GvFjmjjzQ1xq9c2o",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.GvFjmjjzQ1xq9c2o"
+      "_key": "!actors.items!J4ZwkpWk2eKQKJFg.1GUs6pHk0o5TrpRL"
     }
   ],
   "flags": {},
@@ -549,8 +491,9 @@
     "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
   },
   "sort": 0,
-  "_key": "!actors!9Glg5ae0zQtosEUD"
+  "_key": "!actors!J4ZwkpWk2eKQKJFg"
 }

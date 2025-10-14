@@ -1,7 +1,7 @@
 {
-  "type": "npc",
   "folder": null,
-  "name": "Thermatrod",
+  "name": "Khefak",
+  "type": "npc",
   "prototypeToken": {
     "flags": {
       "pf2e": {
@@ -9,9 +9,9 @@
         "autoscale": true
       }
     },
-    "height": 2,
-    "width": 2,
-    "name": "Thermatrod",
+    "height": 1,
+    "width": 1,
+    "name": "Khefak",
     "displayName": 20,
     "actorLink": false,
     "texture": {
@@ -105,31 +105,35 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 45,
+        "value": 7,
         "temp": 0,
-        "max": 45,
+        "max": 7,
         "details": ""
       },
       "ac": {
-        "value": 18,
+        "value": 15,
         "details": ""
       },
       "allSaves": {
         "value": ""
       },
       "speed": {
-        "value": 25,
-        "otherSpeeds": [],
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "burrow",
+            "value": 5
+          },
+          {
+            "type": "climb",
+            "value": 20
+          }
+        ],
         "details": ""
       },
-      "immunities": [
+      "resistances": [
         {
-          "type": "fire"
-        }
-      ],
-      "weaknesses": [
-        {
-          "type": "cold",
+          "type": "poison",
           "value": 5
         }
       ]
@@ -143,10 +147,10 @@
         "details": ""
       },
       "level": {
-        "value": 3
+        "value": -1
       },
       "blurb": "",
-      "publicNotes": "<p>A standard thermatrod dwells near volcanic vents and other sources of intense heat.</p><hr /><p>Originally thought to be exiles from the Plane of Fire, thermatrods actually developed independently in multiple star systems in the Universe. A thermatrod resembles a molten bipedal creature, though they often walk on their front knuckles to support their heavy frames. Thermatrods sport distinctive raised dorsal plates that resemble hexagonal basalt columns, which researchers use to estimate an individual's age. A thermatrod's hardened exterior varies greatly based on local mineral deposits that make up a thermatrod's diet.</p>",
+      "publicNotes": "<p>Explorers who encounter khefaks for the first time find themselves surprised not only with its aggression, but the target of that aggression: armor and other gear. It isn't uncommon for inexperienced explorers in khefak territory to return from expeditions literally empty-handed, much to the amusement of locals.</p><hr /><p>Khefak Biogenetics bioengineered khefaks to consume scrap thasteron so the waste could be refined into starship fuel. These creatures eventually became a prime example of a solution becoming a problem of its own. After the discovery of Drift travel, Akiton's thasteron market plummeted, removing the need for mining infrastructure, including khefaks. Khefak Biogenetics destroyed the production facilities, thinking they'd completely eradicated their creations. Khefaks are hardy, however, and the few survivors left the facilities. Beyond thasteron, they subsisted on inorganic materials, and their rapid reproduction rate allowed them to quickly spread all over Akiton. Some stowed away on starships, allowing them to spread throughout the Pact Worlds.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Starfinder Alien Core",
@@ -166,16 +170,16 @@
     },
     "abilities": {
       "str": {
-        "mod": 4
+        "mod": 1
       },
       "dex": {
         "mod": 1
       },
       "con": {
-        "mod": 4
+        "mod": 3
       },
       "int": {
-        "mod": 0
+        "mod": -5
       },
       "wis": {
         "mod": 0
@@ -185,115 +189,64 @@
       }
     },
     "perception": {
-      "details": "temperature sense (precise) 60 feet",
-      "mod": 9,
-      "senses": [],
-      "vision": false
+      "details": "",
+      "mod": 5,
+      "senses": [
+        {
+          "type": "darkvision"
+        },
+        {
+          "type": "tremorsense",
+          "acuity": "imprecise",
+          "range": 30
+        }
+      ],
+      "vision": true
     },
     "saves": {
       "fortitude": {
-        "value": 12,
+        "value": 5,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 9,
+        "value": 2,
         "saveDetail": ""
       },
       "will": {
-        "value": 7,
+        "value": 2,
         "saveDetail": ""
       }
     },
     "skills": {
-      "acrobatics": {
-        "base": 7
-      },
       "athletics": {
-        "base": 10
+        "base": 5
       },
-      "intimidation": {
-        "base": 9
+      "survival": {
+        "base": 5
       }
     },
     "traits": {
       "value": [
-        "beast",
-        "fire"
+        "animal"
       ],
       "rarity": "common",
       "size": {
-        "value": "lg"
+        "value": "sm"
       }
     }
   },
-  "_id": "9Glg5ae0zQtosEUD",
+  "_id": "2DMxWPhGQfZQot2k",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
       "type": "action",
-      "name": "Temperature Sense",
+      "name": "Gnaw Scrap",
       "system": {
         "actionType": {
           "value": "passive"
         },
         "description": {
-          "value": "<p>A thermatrod can detect nearby changes in temperature as a precise sense to detect living creatures and other heat sources.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "interaction",
-        "deathNote": false
-      },
-      "effects": [],
-      "_id": "fhoeskPq6jtIIHF6",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.fhoeskPq6jtIIHF6"
-    },
-    {
-      "type": "action",
-      "name": "Melting Aura",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "description": {
-          "value": "<p>10 feet. A creature that begins its turn within this aura takes @Damage[1d6[fire]] damage (@Check[fortitude|dc:17|basic] save).</p>",
+          "value": "<p>A khefak chews on an unattended object to feed, dealing @Damage[4[piercing]] damage every 10 minutes to the object. This damage ignores 10 points of Hardness. If a khefak doesn't spend at least 1 hour Gnawing Scrap per day, it begins to starve until it spends 10 minutes Gnawing Scrap.</p>",
           "gm": ""
         },
         "publication": {
@@ -307,8 +260,7 @@
         "traits": {
           "otherTags": [],
           "value": [
-            "aura",
-            "fire"
+            "exploration"
           ]
         },
         "_migration": {
@@ -321,88 +273,32 @@
         },
         "actions": {
           "value": null
-        },
-        "category": "defensive",
-        "deathNote": false
-      },
-      "effects": [],
-      "_id": "9buF1xxiu62UB284",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.9buF1xxiu62UB284"
-    },
-    {
-      "type": "action",
-      "name": "Slag Barrage",
-      "system": {
-        "actionType": {
-          "value": "action"
-        },
-        "description": {
-          "value": "<p>The thermatrod sprays part of its molten core in a @Template[type:cone|distance:15] that hardens moments later. Each creature in the area takes @Damage[4d6[fire]|options:area-damage] damage (@Check[reflex|dc:20|basic] save). A creature that fails the save is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} ([[/act escape dc=20]]). The thermatrod can't use Slag Barrage again for [[/gmr 1d4 #Recharge Slag Barrage]]{1d4 rounds}.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "actions": {
-          "value": 2
         },
         "category": "offensive",
         "deathNote": false
       },
       "effects": [],
-      "_id": "W3JJwbimJYguvO32",
-      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "_id": "k6JaEYngxxngbZ0I",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.W3JJwbimJYguvO32"
+      "_key": "!actors.items!2DMxWPhGQfZQot2k.k6JaEYngxxngbZ0I"
     },
     {
       "type": "melee",
-      "name": "Fist",
+      "name": "Claw",
       "effects": [],
       "system": {
         "_migration": {
@@ -428,24 +324,18 @@
         "traits": {
           "otherTags": [],
           "value": [
-            "fire",
-            "reach-10"
+            "agile"
           ]
         },
         "damageRolls": {
-          "O1dugSPe5adtwPil": {
-            "damage": "1d8+4",
-            "damageType": "bludgeoning",
+          "xDU0V78rfVh12aFG": {
+            "damage": "1d4+1",
+            "damageType": "slashing",
             "category": null
-          },
-          "K6yiHCWoq9YFcqcw": {
-            "damage": "1d6",
-            "damageType": "fire",
-            "category": "persistent"
           }
         },
         "bonus": {
-          "value": 12
+          "value": 6
         },
         "attackEffects": {
           "value": []
@@ -453,27 +343,27 @@
         "action": "strike",
         "area": null
       },
-      "_id": "EHBpMsJunbVfVM5t",
+      "_id": "SGljDrmlpcXoM5Ve",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.EHBpMsJunbVfVM5t"
+      "_key": "!actors.items!2DMxWPhGQfZQot2k.SGljDrmlpcXoM5Ve"
     },
     {
       "type": "melee",
-      "name": "Lava Blob",
+      "name": "Jaws",
       "effects": [],
       "system": {
         "_migration": {
@@ -498,21 +388,17 @@
         "slug": null,
         "traits": {
           "otherTags": [],
-          "value": [
-            "fire",
-            "propulsive",
-            "range-increment-30"
-          ]
+          "value": []
         },
         "damageRolls": {
-          "mBuGHKjOaz4Q6rPT": {
-            "damage": "1d6+2",
-            "damageType": "fire",
+          "sf7h6D3Y7LbEsTWN": {
+            "damage": "1d4+1",
+            "damageType": "piercing",
             "category": null
           }
         },
         "bonus": {
-          "value": 10
+          "value": 6
         },
         "attackEffects": {
           "value": []
@@ -520,23 +406,23 @@
         "action": "strike",
         "area": null
       },
-      "_id": "GvFjmjjzQ1xq9c2o",
+      "_id": "eSQHOpMLBBpmw8b3",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.GvFjmjjzQ1xq9c2o"
+      "_key": "!actors.items!2DMxWPhGQfZQot2k.eSQHOpMLBBpmw8b3"
     }
   ],
   "flags": {},
@@ -549,8 +435,9 @@
     "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
   },
   "sort": 0,
-  "_key": "!actors!9Glg5ae0zQtosEUD"
+  "_key": "!actors!2DMxWPhGQfZQot2k"
 }

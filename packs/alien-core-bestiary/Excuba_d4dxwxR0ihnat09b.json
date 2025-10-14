@@ -129,16 +129,36 @@
       },
       "immunities": [
         {
-          "type": "electricity",
-          "exceptions": []
+          "type": "electricity"
         },
         {
-          "type": "precision",
-          "exceptions": []
+          "type": "grabbed"
         },
         {
-          "type": "swarm-mind",
-          "exceptions": []
+          "type": "precision"
+        },
+        {
+          "type": "prone"
+        },
+        {
+          "type": "restrained"
+        },
+        {
+          "type": "swarm-mind"
+        }
+      ],
+      "resistances": [
+        {
+          "type": "bludgeoning",
+          "value": 2
+        },
+        {
+          "type": "piercing",
+          "value": 5
+        },
+        {
+          "type": "slashing",
+          "value": 5
         }
       ],
       "weaknesses": [
@@ -152,26 +172,6 @@
           "value": 5,
           "exceptions": []
         }
-      ],
-      "resistances": [
-        {
-          "type": "bludgeoning",
-          "value": 2,
-          "exceptions": [],
-          "doubleVs": []
-        },
-        {
-          "type": "piercing",
-          "value": 5,
-          "exceptions": [],
-          "doubleVs": []
-        },
-        {
-          "type": "slashing",
-          "value": 5,
-          "exceptions": [],
-          "doubleVs": []
-        }
       ]
     },
     "initiative": {
@@ -180,13 +180,13 @@
     "details": {
       "languages": {
         "value": [],
-        "details": "Arc network, Digital telepathy, Truespeech; can't speak any language"
+        "details": "Arc network, Digital telepathy, Truespeech cant speak any language"
       },
       "level": {
         "value": 4
       },
       "blurb": "",
-      "publicNotes": "",
+      "publicNotes": "<p>Unlike all other known types of spectra, excuba spectra are fragmented creatures made of countless tiny pieces that act together as a single networked whole. No accounts of an excuba encounter exist before the Drift crashed, and prevailing theories hold that either the trauma of the crisis created them, or they were created by the Drift as a response to the crisis itself. Whatever the case, excuba encounters have become all too common. These spectra swarms are often dispatched to infiltrate mortal worlds as spies or observers. They collect information for more powerful spectra like wyspirias to analyze and preserve. Some speculate that excubas have always lurked in the galaxy as invisible spies for other spectra, and that the Drift Crisis merely caused them to take a new, less cohesive form.</p><hr /><p>In the Great Beyond, time is measured not in hundreds, thousands, or millions of years, but rather in eons—in iterations of reality itself. Only rising to prominence within the last three centuries alongside the advent and proliferation of Drift technology, spectra have thrived in a burgeoning niche of the otherwise stagnant zeitgeist of the Great Beyond.</p><p>Though their origins and objectives remain shrouded in mystery, encounters with spectra revolve around new technological discoveries, sharing the knowledge of faster-than-light travel, and protecting the Drift. No one knows if spectra existed before the Drift, but their connection to the hyperspace plane is indisputable. Prominent metaphysicians believe spectra were created as amalgams of raw quintessence pulled into the Drift, just as the Drift itself grows from pieces of the Multiverse. If this is true, spectra's interest in the proliferation of Drift technology takes a subtle sinister turn, as each new Drift engine serves to harvest the Great Beyond and all its denizens for the growth of the Drift and spectra themselves.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Starfinder Alien Core",
@@ -197,11 +197,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.943,
+      "version": 0.946,
       "previous": {
         "schema": 0.943,
-        "foundry": "13.348",
-        "system": "7.5.1"
+        "foundry": "13.350",
+        "system": "7.5.2"
       }
     },
     "abilities": {
@@ -268,7 +268,6 @@
     "traits": {
       "value": [
         "cosmic",
-        "spectra",
         "swarm"
       ],
       "rarity": "common",
@@ -280,60 +279,6 @@
   "_id": "d4dxwxR0ihnat09b",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
-    {
-      "name": "Drift Lore",
-      "type": "lore",
-      "system": {
-        "description": {
-          "gm": "",
-          "value": ""
-        },
-        "rules": [],
-        "slug": null,
-        "_migration": {
-          "version": 0.943,
-          "lastMigration": null,
-          "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
-          }
-        },
-        "traits": {
-          "otherTags": []
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "mod": {
-          "value": 13
-        },
-        "proficient": {
-          "value": 0
-        }
-      },
-      "effects": [],
-      "_id": "fNOfmHjHh0n7vCLl",
-      "img": "systems/pf2e/icons/default-icons/lore.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.fNOfmHjHh0n7vCLl"
-    },
     {
       "type": "action",
       "name": "Arc Network",
@@ -358,11 +303,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -372,23 +317,23 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "iXte6m9b3C472bvv",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "771vU0P9EccjLB6w",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.iXte6m9b3C472bvv"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.771vU0P9EccjLB6w"
     },
     {
       "type": "action",
@@ -398,7 +343,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>An excuba has an internal biomechanical Drift engine, allowing them to function as a Drift engine for a starship or vehicle they pilot as a 1-minute activity. An excuba can enter or exit the Drift themself as a 1-minute activity. When an excuba gets a critical failure on a Piloting check to @UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]{Navigate} or @UUID[Compendium.sf2e-anachronism.actions.Item.LXqcXRayK58inaKo]{Plot a Course} through the Drift, they get a failure instead.</p>",
+          "value": "<p>An excuba has an internal biomechanical Drift engine, allowing them to function as a Drift engine for a starship or vehicle they pilot as a 1-minute activity. An excuba can enter or exit the Drift themself as a 1-minute activity. When an excuba gets a critical failure on a Piloting check to Navigate or Plot a Course through the Drift, they get a failure instead.</p>",
           "gm": ""
         },
         "publication": {
@@ -414,37 +359,37 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
           "value": null
         },
-        "category": "defensive",
+        "category": "interaction",
         "deathNote": false
       },
       "effects": [],
-      "_id": "sOqpqhiwCNsCUCaY",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "eJm2qUdCE9QyTBge",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.sOqpqhiwCNsCUCaY"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.eJm2qUdCE9QyTBge"
     },
     {
       "type": "action",
@@ -470,11 +415,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -484,23 +429,23 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "iopyFb7yr7uIAfqf",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "zpqUH68Ikt0xGYm5",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.iopyFb7yr7uIAfqf"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.zpqUH68Ikt0xGYm5"
     },
     {
       "type": "action",
@@ -531,11 +476,11 @@
           ]
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -545,23 +490,23 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "rFx1I4X7FOfAIh2v",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "bSGMqAD0MHu8veSv",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.rFx1I4X7FOfAIh2v"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.bSGMqAD0MHu8veSv"
     },
     {
       "type": "action",
@@ -587,11 +532,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -601,23 +546,23 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "UM5TEBhZ1BtYUIqg",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "9BqZmg06HAzysR6Y",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.UM5TEBhZ1BtYUIqg"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.9BqZmg06HAzysR6Y"
     },
     {
       "type": "action",
@@ -647,37 +592,37 @@
           ]
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
           "value": null
         },
-        "category": "defensive",
+        "category": "interaction",
         "deathNote": false
       },
       "effects": [],
-      "_id": "xMQ6d2Y9gxR2TnJx",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "2c3B9s3gDpRzSv9l",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.xMQ6d2Y9gxR2TnJx"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.2c3B9s3gDpRzSv9l"
     },
     {
       "name": "Occult Innate Spells",
@@ -690,8 +635,13 @@
         "rules": [],
         "slug": null,
         "_migration": {
-          "version": 0.943,
-          "lastMigration": null
+          "version": 0.946,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
         },
         "traits": {
           "otherTags": []
@@ -787,24 +737,24 @@
           "value": null
         }
       },
-      "_id": "ujHetooAwuAC2uqZ",
+      "_id": "INiGFglEGjz18c3R",
       "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.ujHetooAwuAC2uqZ"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.INiGFglEGjz18c3R"
     },
     {
       "type": "spell",
@@ -818,12 +768,12 @@
         "rules": [],
         "slug": "caustic-conversion",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -891,7 +841,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ",
+          "value": "INiGFglEGjz18c3R",
           "heightenedLevel": 2
         },
         "counteraction": false,
@@ -910,18 +860,18 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "UmUTZvCUiqIhAHsI",
+      "_id": "QflsdSiqfxzR4iLQ",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.UmUTZvCUiqIhAHsI"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.QflsdSiqfxzR4iLQ"
     },
     {
       "type": "spell",
@@ -935,12 +885,12 @@
         "rules": [],
         "slug": "inject-nanobots",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -997,7 +947,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ",
+          "value": "INiGFglEGjz18c3R",
           "heightenedLevel": 2
         },
         "counteraction": false,
@@ -1015,22 +965,22 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "YYKfTY5Hb0G2Ska9",
+      "_id": "oswNHts4Rgnc1jXf",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.YYKfTY5Hb0G2Ska9"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.oswNHts4Rgnc1jXf"
     },
     {
       "type": "spell",
-      "name": "Skim Data",
+      "name": "Skim Data (at will)",
       "folder": "KGETkFaB5r8FyUND",
       "system": {
         "description": {
@@ -1040,12 +990,12 @@
         "rules": [],
         "slug": "skim-data",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -1090,7 +1040,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ",
+          "value": "INiGFglEGjz18c3R",
           "heightenedLevel": 2
         },
         "counteraction": false
@@ -1100,18 +1050,18 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "hN8EeM8KCrwC83KK",
+      "_id": "Syx02TRJsDTbFTXy",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.hN8EeM8KCrwC83KK"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.Syx02TRJsDTbFTXy"
     },
     {
       "type": "spell",
@@ -1125,12 +1075,12 @@
         "rules": [],
         "slug": "delete",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -1175,7 +1125,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ",
+          "value": "INiGFglEGjz18c3R",
           "heightenedLevel": 1
         },
         "counteraction": false
@@ -1185,18 +1135,18 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "4naLxQfqnJCTDxTx",
+      "_id": "7nn84vvQEGPADiOl",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.4naLxQfqnJCTDxTx"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.7nn84vvQEGPADiOl"
     },
     {
       "type": "spell",
@@ -1210,12 +1160,12 @@
         "rules": [],
         "slug": "dream-of-home",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -1266,7 +1216,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ",
+          "value": "INiGFglEGjz18c3R",
           "heightenedLevel": 1
         },
         "counteraction": false
@@ -1276,18 +1226,18 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "3ifjjfuFojkv6gDN",
+      "_id": "IQUGoTf6dGBsJXrt",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.3ifjjfuFojkv6gDN"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.IQUGoTf6dGBsJXrt"
     },
     {
       "type": "spell",
@@ -1301,12 +1251,12 @@
         "rules": [],
         "slug": "analyze-target",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -1355,7 +1305,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ"
+          "value": "INiGFglEGjz18c3R"
         },
         "counteraction": false
       },
@@ -1364,18 +1314,18 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "4DCPL3EFZZO0QvL7",
+      "_id": "2OPVkWNfIvt8rB57",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.4DCPL3EFZZO0QvL7"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.2OPVkWNfIvt8rB57"
     },
     {
       "type": "spell",
@@ -1389,12 +1339,12 @@
         "rules": [],
         "slug": "implant-data",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -1440,7 +1390,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ"
+          "value": "INiGFglEGjz18c3R"
         },
         "counteraction": false
       },
@@ -1449,18 +1399,18 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "4xoTxbaVNHUES8BU",
+      "_id": "rkllSWDSzDpwc78A",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.4xoTxbaVNHUES8BU"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.rkllSWDSzDpwc78A"
     },
     {
       "type": "spell",
@@ -1474,12 +1424,12 @@
         "rules": [],
         "slug": "seek-the-stars",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -1526,7 +1476,7 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ"
+          "value": "INiGFglEGjz18c3R"
         },
         "counteraction": false
       },
@@ -1535,23 +1485,23 @@
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
-      "_id": "L2bYOaH9jiWJEHdc",
+      "_id": "EVRqeNqoN8iTSWXp",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.L2bYOaH9jiWJEHdc"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.EVRqeNqoN8iTSWXp"
     },
     {
       "folder": "iDjm2cXyRAe4VZ35",
       "img": "systems/pf2e/icons/spells/tongues.webp",
-      "name": "Truespeech (Constant)",
+      "name": "Truespeech (constant)",
       "system": {
         "description": {
           "gm": "",
@@ -1560,9 +1510,13 @@
         "rules": [],
         "slug": "truespeech",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
-          "previous": null
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
         },
         "traits": {
           "otherTags": [],
@@ -1607,78 +1561,27 @@
           "value": ""
         },
         "location": {
-          "value": "ujHetooAwuAC2uqZ"
+          "value": "INiGFglEGjz18c3R"
         },
         "counteraction": false
       },
       "type": "spell",
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "effects": [],
       "sort": 0,
       "flags": {},
-      "_id": "lQXP6d1WVdoOhPc2",
+      "_id": "eYSNACkAPlsgVxkS",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.lQXP6d1WVdoOhPc2"
-    },
-    {
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "name": "Constant Spells",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "interaction",
-        "description": {
-          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>",
-          "gm": ""
-        },
-        "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Monster Core",
-          "authors": ""
-        },
-        "rules": [],
-        "traits": {
-          "value": [],
-          "otherTags": []
-        },
-        "slug": "constant-spells",
-        "_migration": {
-          "version": 0.943,
-          "previous": null
-        }
-      },
-      "type": "action",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_id": "OM688Ii6LHdWjMXQ",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.OM688Ii6LHdWjMXQ"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.eYSNACkAPlsgVxkS"
     },
     {
       "img": "systems/pf2e/icons/actions/OneAction.webp",
@@ -1705,35 +1608,40 @@
         "traits": {
           "value": [
             "concentrate",
+            "occult",
             "polymorph"
           ],
           "otherTags": []
         },
         "slug": "change-shape",
         "_migration": {
-          "version": 0.943,
-          "previous": null
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
         },
         "deathNote": false
       },
       "type": "action",
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {},
-      "_id": "wIER6joHf5wEAqbk",
+      "_id": "kWHb8KYyngZXzWb0",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.wIER6joHf5wEAqbk"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.kWHb8KYyngZXzWb0"
     },
     {
       "type": "action",
@@ -1763,37 +1671,41 @@
           ]
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
           "value": 1
         },
         "category": "offensive",
-        "deathNote": false
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "PT1M"
+        }
       },
       "effects": [],
-      "_id": "TjVNJuzsINqIgsZA",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "lhWDzb0y7ioOWlor",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.TjVNJuzsINqIgsZA"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.lhWDzb0y7ioOWlor"
     },
     {
       "type": "action",
@@ -1803,7 +1715,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>Each enemy creature in the swarm's space takes @Damage[2d8[sonic]] damage (@Check[reflex|dc:21|basic] save). On a failure, creatures and objects with the tech trait become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} (or @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} on a critical failure).</p>",
+          "value": "<p>Each enemy creature in the swarm's space takes @Damage[2d8[sonic]] damage (@Check[reflex|dc:21|basic] save). On a failure, creatures and objects with the tech trait become glitching 1 (or glitching 2 on a critical failure).</p>",
           "gm": ""
         },
         "publication": {
@@ -1823,11 +1735,11 @@
           ]
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -1837,23 +1749,77 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "xE53cz2iYwj1WfSN",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "PPXVa8efjBsgOpXE",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!d4dxwxR0ihnat09b.xE53cz2iYwj1WfSN"
+      "_key": "!actors.items!d4dxwxR0ihnat09b.PPXVa8efjBsgOpXE"
+    },
+    {
+      "name": "Drift Lore",
+      "type": "lore",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.946,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 13
+        },
+        "proficient": {
+          "value": 0
+        }
+      },
+      "effects": [],
+      "_id": "GAQ1hl7ZgEa0LmUP",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!d4dxwxR0ihnat09b.GAQ1hl7ZgEa0LmUP"
     }
   ],
   "flags": {},
@@ -1861,13 +1827,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0,
-    "qA45GVv5hySaf9b5": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!actors!d4dxwxR0ihnat09b"

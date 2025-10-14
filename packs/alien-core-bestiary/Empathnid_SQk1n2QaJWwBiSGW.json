@@ -1,7 +1,7 @@
 {
-  "type": "npc",
   "folder": null,
-  "name": "Thermatrod",
+  "name": "Empathnid",
+  "type": "npc",
   "prototypeToken": {
     "flags": {
       "pf2e": {
@@ -9,9 +9,9 @@
         "autoscale": true
       }
     },
-    "height": 2,
-    "width": 2,
-    "name": "Thermatrod",
+    "height": 0.5,
+    "width": 0.5,
+    "name": "Empathnid",
     "displayName": 20,
     "actorLink": false,
     "texture": {
@@ -105,34 +105,28 @@
   "system": {
     "attributes": {
       "hp": {
-        "value": 45,
+        "value": 6,
         "temp": 0,
-        "max": 45,
+        "max": 6,
         "details": ""
       },
       "ac": {
-        "value": 18,
+        "value": 15,
         "details": ""
       },
       "allSaves": {
         "value": ""
       },
       "speed": {
-        "value": 25,
-        "otherSpeeds": [],
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 20
+          }
+        ],
         "details": ""
-      },
-      "immunities": [
-        {
-          "type": "fire"
-        }
-      ],
-      "weaknesses": [
-        {
-          "type": "cold",
-          "value": 5
-        }
-      ]
+      }
     },
     "initiative": {
       "statistic": "perception"
@@ -143,10 +137,10 @@
         "details": ""
       },
       "level": {
-        "value": 3
+        "value": -1
       },
       "blurb": "",
-      "publicNotes": "<p>A standard thermatrod dwells near volcanic vents and other sources of intense heat.</p><hr /><p>Originally thought to be exiles from the Plane of Fire, thermatrods actually developed independently in multiple star systems in the Universe. A thermatrod resembles a molten bipedal creature, though they often walk on their front knuckles to support their heavy frames. Thermatrods sport distinctive raised dorsal plates that resemble hexagonal basalt columns, which researchers use to estimate an individual's age. A thermatrod's hardened exterior varies greatly based on local mineral deposits that make up a thermatrod's diet.</p>",
+      "publicNotes": "<p>Empathnids take a liking to those who show them genuine empathy. While they usually avoid combat, empathnids jump into action if their friends are threatened.</p><hr /><p>Empathnids have tremendous empathy for other creatures. The fact that the 8-inch spidery creatures come in a variety of colors and have a lifesaving venom likely explains why they're frequently used as companions or pets across the Pact Worlds.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Starfinder Alien Core",
@@ -166,78 +160,81 @@
     },
     "abilities": {
       "str": {
-        "mod": 4
-      },
-      "dex": {
         "mod": 1
       },
+      "dex": {
+        "mod": 3
+      },
       "con": {
-        "mod": 4
+        "mod": 1
       },
       "int": {
-        "mod": 0
+        "mod": -4
       },
       "wis": {
-        "mod": 0
+        "mod": 2
       },
       "cha": {
-        "mod": 0
+        "mod": -3
       }
     },
     "perception": {
-      "details": "temperature sense (precise) 60 feet",
-      "mod": 9,
-      "senses": [],
-      "vision": false
+      "details": "emotionsense (precise) 30 feet",
+      "mod": 5,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
     },
     "saves": {
       "fortitude": {
-        "value": 12,
+        "value": 2,
         "saveDetail": ""
       },
       "reflex": {
-        "value": 9,
+        "value": 6,
         "saveDetail": ""
       },
       "will": {
-        "value": 7,
+        "value": 5,
         "saveDetail": ""
       }
     },
     "skills": {
       "acrobatics": {
-        "base": 7
+        "base": 5
       },
       "athletics": {
-        "base": 10
+        "base": 4
       },
-      "intimidation": {
-        "base": 9
+      "stealth": {
+        "base": 7
       }
     },
     "traits": {
       "value": [
-        "beast",
-        "fire"
+        "animal"
       ],
       "rarity": "common",
       "size": {
-        "value": "lg"
+        "value": "tiny"
       }
     }
   },
-  "_id": "9Glg5ae0zQtosEUD",
+  "_id": "SQk1n2QaJWwBiSGW",
   "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
       "type": "action",
-      "name": "Temperature Sense",
+      "name": "Emotionsense",
       "system": {
         "actionType": {
           "value": "passive"
         },
         "description": {
-          "value": "<p>A thermatrod can detect nearby changes in temperature as a precise sense to detect living creatures and other heat sources.</p>",
+          "value": "<p>This is a precise sense against creatures under an emotion effect or in the grips of overwhelming emotions (at the GM's discretion). Against other creatures, this is an imprecise sense. Creatures immune to emotion or mental effects or under the effects of a calm spell are undetectable by emotionsense.</p>",
           "gm": ""
         },
         "publication": {
@@ -267,33 +264,33 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "fhoeskPq6jtIIHF6",
+      "_id": "dFPhNJAb6OJn8jLO",
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.fhoeskPq6jtIIHF6"
+      "_key": "!actors.items!SQk1n2QaJWwBiSGW.dFPhNJAb6OJn8jLO"
     },
     {
       "type": "action",
-      "name": "Melting Aura",
+      "name": "Moral Support",
       "system": {
         "actionType": {
           "value": "passive"
         },
         "description": {
-          "value": "<p>10 feet. A creature that begins its turn within this aura takes @Damage[1d6[fire]] damage (@Check[fortitude|dc:17|basic] save).</p>",
+          "value": "<p>Allies sharing the same space as the empathnid receive a +1 circumstance bonus on saving throws against emotion and mental effects.</p>",
           "gm": ""
         },
         "publication": {
@@ -307,8 +304,7 @@
         "traits": {
           "otherTags": [],
           "value": [
-            "aura",
-            "fire"
+            "mental"
           ]
         },
         "_migration": {
@@ -326,33 +322,98 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "9buF1xxiu62UB284",
+      "_id": "ntvojTjEjKSSYLp5",
       "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.9buF1xxiu62UB284"
+      "_key": "!actors.items!SQk1n2QaJWwBiSGW.ntvojTjEjKSSYLp5"
+    },
+    {
+      "type": "melee",
+      "name": "Fangs",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "finesse"
+          ]
+        },
+        "damageRolls": {
+          "a2s8XK7ZfuPyPKXB": {
+            "damage": "1d4+1",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 6
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
+      },
+      "_id": "6OkWsvDIhnooBfUb",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!SQk1n2QaJWwBiSGW.6OkWsvDIhnooBfUb"
     },
     {
       "type": "action",
-      "name": "Slag Barrage",
+      "name": "Stabilizing Antivenom",
       "system": {
         "actionType": {
           "value": "action"
         },
         "description": {
-          "value": "<p>The thermatrod sprays part of its molten core in a @Template[type:cone|distance:15] that hardens moments later. Each creature in the area takes @Damage[4d6[fire]|options:area-damage] damage (@Check[reflex|dc:20|basic] save). A creature that fails the save is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} ([[/act escape dc=20]]). The thermatrod can't use Slag Barrage again for [[/gmr 1d4 #Recharge Slag Barrage]]{1d4 rounds}.</p>",
+          "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirements</strong> The empathnid is sharing a space with a creature with the dying condition</p><hr /><p><strong>Effect</strong> The empathnid injects its proto-venom into the creature. That creature loses the dying condition, though it remains @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} at 0 Hit Points.</p>",
           "gm": ""
         },
         "publication": {
@@ -376,167 +437,33 @@
           }
         },
         "actions": {
-          "value": 2
+          "value": 1
         },
         "category": "offensive",
-        "deathNote": false
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "day"
+        }
       },
       "effects": [],
-      "_id": "W3JJwbimJYguvO32",
-      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "_id": "OX4szBZ1VDeLQJSs",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.W3JJwbimJYguvO32"
-    },
-    {
-      "type": "melee",
-      "name": "Fist",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "reach-10"
-          ]
-        },
-        "damageRolls": {
-          "O1dugSPe5adtwPil": {
-            "damage": "1d8+4",
-            "damageType": "bludgeoning",
-            "category": null
-          },
-          "K6yiHCWoq9YFcqcw": {
-            "damage": "1d6",
-            "damageType": "fire",
-            "category": "persistent"
-          }
-        },
-        "bonus": {
-          "value": 12
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "action": "strike",
-        "area": null
-      },
-      "_id": "EHBpMsJunbVfVM5t",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.EHBpMsJunbVfVM5t"
-    },
-    {
-      "type": "melee",
-      "name": "Lava Blob",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "propulsive",
-            "range-increment-30"
-          ]
-        },
-        "damageRolls": {
-          "mBuGHKjOaz4Q6rPT": {
-            "damage": "1d6+2",
-            "damageType": "fire",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 10
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "action": "strike",
-        "area": null
-      },
-      "_id": "GvFjmjjzQ1xq9c2o",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.GvFjmjjzQ1xq9c2o"
+      "_key": "!actors.items!SQk1n2QaJWwBiSGW.OX4szBZ1VDeLQJSs"
     }
   ],
   "flags": {},
@@ -549,8 +476,9 @@
     "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
   },
   "sort": 0,
-  "_key": "!actors!9Glg5ae0zQtosEUD"
+  "_key": "!actors!SQk1n2QaJWwBiSGW"
 }

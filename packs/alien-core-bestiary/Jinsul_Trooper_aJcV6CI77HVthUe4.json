@@ -1,19 +1,129 @@
 {
   "type": "npc",
+  "name": "Jinsul Trooper",
   "folder": null,
-  "name": "Protection-Class Security Robot",
-  "prototypeToken": {
-    "flags": {
-      "pf2e": {
-        "linkToActorSize": true,
-        "autoscale": true
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 16,
+        "temp": 0,
+        "max": 16,
+        "details": ""
+      },
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
       }
     },
-    "height": 1,
-    "width": 1,
-    "name": "Protection-Class Security Robot",
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "jinsul"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 0
+      },
+      "blurb": "",
+      "publicNotes": "<p>The lowest ranked jinsuls in a warband are the subordinate troopers. These jinsuls prove themselves by hurtling toward the enemy, discharging weapons, and closing with their vicious leg blades. Those troopers who survive long enough are recognized and promoted through the harsh jinsul military lifestyle.</p><hr /><p>Jinsuls are a warlike species scattered across the Vast. Six-legged creatures with a bulbous body covered in eyes, jinsuls have notable segments of chitin along with a set of upper forelimbs for using equipment. They long ago lived in the region of space known as the Scoured Stars but eventually departed and settled on the harsh world of Rax. In recent years, the divine herald Dhurus unified the jinsuls into a cohesive force known as the Jinsul Hierocracy, which briefly retook the Scoured Stars. A joint alliance between several species and members of the Starfinder Society defeated Dhurus and scattered the jinsuls back into the Vast.</p><p>With countless bases and fleets operating in deep space, jinsuls mostly act as raiders, scavenging for equipment and testing their mettle against other species. Indoctrinated to view themselves as a superior species, with only other inhabitants of the Scoured Stars having any value, jinsuls prefer to engage in short-ranged combat with their foes.</p><p>Jinsuls aren't numerous enough to fill every need on the many ships and starbases they control across the galaxy. Instead, they rely on robots and automated computer systems (always commanded by at least one jinsul officer) to keep their space stations running efficiently. These systems are programmed to be just as deadly and ruthless as jinsuls themselves; even the most innocuous automated system or robot, like a garbage collector, might wield deadly weapons or contain vicious technomagical countermeasures.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Starfinder Alien Core",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.946,
+      "previous": {
+        "schema": null,
+        "foundry": "13.350",
+        "system": "7.5.2"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -1
+      }
+    },
+    "perception": {
+      "details": "darkvision",
+      "mod": 6,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 7
+      },
+      "intimidation": {
+        "base": 5
+      },
+      "survival": {
+        "base": 7
+      }
+    },
+    "traits": {
+      "value": [
+        "jinsul"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "aJcV6CI77HVthUe4",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "prototypeToken": {
+    "name": "Jinsul Trooper",
     "displayName": 20,
     "actorLink": false,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "systems/pf2e/icons/default-icons/npc.svg",
       "anchorX": 0.5,
@@ -97,194 +207,82 @@
       "disposition": false
     },
     "movementAction": null,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
     "randomImg": false,
     "appendNumber": false,
     "prependAdjective": false
   },
-  "effects": [],
-  "system": {
-    "attributes": {
-      "hp": {
-        "value": 60,
-        "temp": 0,
-        "max": 60,
-        "details": ""
-      },
-      "ac": {
-        "value": 20,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
-      },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
-      "immunities": [
-        {
-          "type": "bleed"
-        },
-        {
-          "type": "death-effects"
-        },
-        {
-          "type": "disease"
-        },
-        {
-          "type": "doomed"
-        },
-        {
-          "type": "drained"
-        },
-        {
-          "type": "fatigued"
-        },
-        {
-          "type": "healing"
-        },
-        {
-          "type": "mental"
-        },
-        {
-          "type": "nonlethal-attacks"
-        },
-        {
-          "type": "paralyzed"
-        },
-        {
-          "type": "poison"
-        },
-        {
-          "type": "sickened"
-        },
-        {
-          "type": "spirit"
-        },
-        {
-          "type": "unconscious"
-        },
-        {
-          "type": "vitality"
-        },
-        {
-          "type": "void"
-        }
-      ],
-      "weaknesses": [
-        {
-          "type": "electricity",
-          "value": 5
-        }
-      ]
-    },
-    "initiative": {
-      "statistic": "perception"
-    },
-    "details": {
-      "languages": {
-        "value": [],
-        "details": ""
-      },
-      "level": {
-        "value": 4
-      },
-      "blurb": "",
-      "publicNotes": "<p>These security robots are often constructed out of more durable materials than other robots, granting them the ability to protect their charges. Their bulky frames can be seen guarding important individuals or valuable items</p><hr /><p>Security robots are ubiquitous throughout industrialized space and have major presences in both the Pact Worlds and Veskarium, employed and customized by corporations and private citizens alike.</p><p>While most soldier robot models are built to be as destructive as possible, and elimination robots are designed to kill, security robots usually have fail-safes programmed into their behavior to prevent them from causing any more violence than is necessary to perform their designated security function. This makes them especially useful in cities, where unintended destruction might harm bystanders or cause legal issues, and even on starships, where a stray laser blast might cause serious damage to vital starship systems.</p>",
-      "privateNotes": "",
-      "publication": {
-        "title": "Starfinder Alien Core",
-        "authors": "",
-        "license": "ORC",
-        "remaster": true
-      }
-    },
-    "resources": {},
-    "_migration": {
-      "version": 0.946,
-      "previous": {
-        "schema": 0.943,
-        "foundry": "13.350",
-        "system": "7.5.2"
-      }
-    },
-    "abilities": {
-      "str": {
-        "mod": 2
-      },
-      "dex": {
-        "mod": 5
-      },
-      "con": {
-        "mod": 3
-      },
-      "int": {
-        "mod": 1
-      },
-      "wis": {
-        "mod": 0
-      },
-      "cha": {
-        "mod": 0
-      }
-    },
-    "perception": {
-      "details": "",
-      "mod": 11,
-      "senses": [
-        {
-          "type": "darkvision"
-        }
-      ],
-      "vision": true
-    },
-    "saves": {
-      "fortitude": {
-        "value": 11,
-        "saveDetail": ""
-      },
-      "reflex": {
-        "value": 13,
-        "saveDetail": ""
-      },
-      "will": {
-        "value": 8,
-        "saveDetail": ""
-      }
-    },
-    "skills": {
-      "acrobatics": {
-        "base": 10
-      },
-      "athletics": {
-        "base": 8
-      },
-      "computers": {
-        "base": 8
-      },
-      "intimidation": {
-        "base": 12
-      }
-    },
-    "traits": {
-      "value": [
-        "construct",
-        "robot",
-        "tech"
-      ],
-      "rarity": "common",
-      "size": {
-        "value": "med"
-      }
-    }
-  },
-  "_id": "gQIOCzsMtAP201XD",
-  "img": "systems/pf2e/icons/default-icons/npc.svg",
   "items": [
     {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "All-Around Vision",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Monster Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.flanking.flankable",
+            "value": false
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "all-around-vision",
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_id": "KsCEDzuChuEqaRSY",
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!aJcV6CI77HVthUe4.KsCEDzuChuEqaRSY"
+    },
+    {
       "folder": "V89RPpe7fyCFC6NS",
-      "name": "Integrated Tactical Laser Rifle",
+      "name": "Laser Rifle",
       "type": "weapon",
       "effects": [],
       "system": {
@@ -380,7 +378,7 @@
         "reload": {
           "value": "1"
         },
-        "grade": "tactical",
+        "grade": "commercial",
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -409,22 +407,22 @@
       "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/teal-sci-fi-gun.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "sort": 3700000,
-      "_id": "G9r0Ld4jTAcCGZUD",
+      "_id": "3vlNwUrijWebLnsa",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.G9r0Ld4jTAcCGZUD"
+      "_key": "!actors.items!aJcV6CI77HVthUe4.3vlNwUrijWebLnsa"
     },
     {
-      "name": "Battery (Tactical)",
+      "name": "Battery (Commercial)",
       "type": "consumable",
       "effects": [],
       "system": {
@@ -433,7 +431,7 @@
           "value": ""
         },
         "rules": [],
-        "slug": "battery-tactical",
+        "slug": "battery-commercial",
         "_migration": {
           "version": 0.946,
           "lastMigration": null,
@@ -457,9 +455,9 @@
           "remaster": true
         },
         "level": {
-          "value": 2
+          "value": 0
         },
-        "quantity": 1,
+        "quantity": 2,
         "baseItem": null,
         "bulk": {
           "value": 0
@@ -471,8 +469,9 @@
         "hardness": 0,
         "price": {
           "value": {
-            "sp": 20
-          }
+            "sp": 10
+          },
+          "per": 1
         },
         "equipped": {
           "carryType": "worn"
@@ -498,8 +497,8 @@
         },
         "category": "ammo",
         "uses": {
-          "value": 20,
-          "max": 20,
+          "value": 10,
+          "max": 10,
           "autoDestroy": true
         },
         "damage": null,
@@ -509,36 +508,36 @@
         "stackGroup": null,
         "spell": null
       },
-      "img": "modules/sf2e-anachronism/art/icons/equipment/other/blue-battery.webp",
+      "img": "modules/sf2e-anachronism/art/icons/equipment/other/green-battery.webp",
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "folder": "F6h7fO0Z7cgQBVRD",
-      "sort": 500000,
-      "_id": "geFOxxfxea8KMafY",
+      "sort": 200000,
+      "_id": "fTxTK1irZmkmCSdE",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.geFOxxfxea8KMafY"
+      "_key": "!actors.items!aJcV6CI77HVthUe4.fTxTK1irZmkmCSdE"
     },
     {
-      "_id": "2PEkl3r6iXzK5am9",
+      "_id": "vT8Ge673JGxgWMdW",
       "name": "Laser Rifle",
       "type": "melee",
       "system": {
         "slug": "laser-rifle",
         "bonus": {
-          "value": 13
+          "value": 7
         },
         "damageRolls": {
-          "GrhuYVAmJq05g8zm": {
-            "damage": "1d8+3",
+          "GbFPJ5HgtwhDl8a0": {
+            "damage": "1d8",
             "damageType": "fire",
             "category": null
           }
@@ -547,8 +546,7 @@
           "value": [
             "range-increment-100",
             "reload-1",
-            "tech",
-            "tracking-1"
+            "tech"
           ],
           "otherTags": []
         },
@@ -579,7 +577,7 @@
       },
       "flags": {
         "pf2e": {
-          "linkedWeapon": "G9r0Ld4jTAcCGZUD"
+          "linkedWeapon": "3vlNwUrijWebLnsa"
         }
       },
       "img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -587,21 +585,21 @@
       "folder": null,
       "sort": 0,
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.2PEkl3r6iXzK5am9"
+      "_key": "!actors.items!aJcV6CI77HVthUe4.vT8Ge673JGxgWMdW"
     },
     {
       "type": "melee",
-      "name": "Fist",
+      "name": "Leg Blade",
       "effects": [],
       "system": {
         "_migration": {
@@ -626,17 +624,24 @@
         "slug": null,
         "traits": {
           "otherTags": [],
-          "value": []
+          "value": [
+            "agile"
+          ]
         },
         "damageRolls": {
-          "n5VNdaP4AyjBeSte": {
-            "damage": "2d6+5",
-            "damageType": "bludgeoning",
+          "N7VXpxJDeqlGDyN2": {
+            "damage": "1d4+1",
+            "damageType": "slashing",
             "category": null
+          },
+          "nUXnRN7cEJsMtNrF": {
+            "damage": "1",
+            "damageType": "bleed",
+            "category": "persistent"
           }
         },
         "bonus": {
-          "value": 10
+          "value": 5
         },
         "attackEffects": {
           "value": []
@@ -644,33 +649,33 @@
         "action": "strike",
         "area": null
       },
-      "_id": "FoJhbkMh1zAjT7QK",
+      "_id": "nPc3cEpNIZYmTm3t",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.FoJhbkMh1zAjT7QK"
+      "_key": "!actors.items!aJcV6CI77HVthUe4.nPc3cEpNIZYmTm3t"
     },
     {
       "type": "action",
-      "name": "Covering Posture",
+      "name": "Strider Leap",
       "system": {
         "actionType": {
           "value": "action"
         },
         "description": {
-          "value": "<p>The protection-class security robot enters a position that grants adjacent allies the benefits of lesser cover until the start of its next turn. A Medium or smaller creature can [[/act take-cover]] while adjacent to the robot and gains the benefits of standard cover.</p>",
+          "value": "<p>The jinsul Strides and then performs a [[/act long-jump]]. They can Stride less than 10 feet and not automatically fail their check to Long Jump.</p>",
           "gm": ""
         },
         "publication": {
@@ -700,85 +705,26 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "I0O4PwIN7FfVo7ot",
+      "_id": "rQJAJCicdq5u0g6h",
       "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2"
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.I0O4PwIN7FfVo7ot"
-    },
-    {
-      "type": "action",
-      "name": "Nanite Surge",
-      "system": {
-        "actionType": {
-          "value": "action"
-        },
-        "description": {
-          "value": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The security robot restores @Damage[24[healing]] Hit Points per the robot's level to one technological creature or item.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "actions": {
-          "value": 2
-        },
-        "category": "offensive",
-        "deathNote": false,
-        "frequency": {
-          "max": 1,
-          "per": "day"
-        }
-      },
-      "effects": [],
-      "_id": "O13dDwZikWQHDpCg",
-      "img": "systems/pf2e/icons/actions/TwoActions.webp",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2",
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.O13dDwZikWQHDpCg"
+      "_key": "!actors.items!aJcV6CI77HVthUe4.rQJAJCicdq5u0g6h"
     }
   ],
+  "effects": [],
   "flags": {},
   "_stats": {
     "compendiumSource": null,
@@ -789,8 +735,9 @@
     "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0
+    "default": 0,
+    "yECpvB6rPSLHk9Lh": 3
   },
   "sort": 0,
-  "_key": "!actors!gQIOCzsMtAP201XD"
+  "_key": "!actors!aJcV6CI77HVthUe4"
 }
