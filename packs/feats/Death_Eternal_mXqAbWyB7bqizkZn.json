@@ -22,7 +22,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You are reduced to 0 Hit Points and would gain the dying condition.</p><hr /><p>You're not ready for the Boneyard. Roll a @Check[flat|dc:11]. On a success, you remain standing with 1 Hit Point instead of being reduced to 0 Hit Points with the dying condition.</p>",
+      "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You are reduced to 0 Hit Points and would gain the dying condition.</p><hr /><p>You're not ready for the Boneyard. Roll a @Check[flat|dc:11|showDC:all]. On a success, you remain standing with 1 Hit Point instead of being reduced to 0 Hit Points with the @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} condition.</p>",
       "gm": ""
     },
     "rules": [],
@@ -69,9 +69,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!mXqAbWyB7bqizkZn"
 }

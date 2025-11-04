@@ -19,7 +19,7 @@
         "elebrian",
         "humanoid"
       ],
-      "rarity": "common"
+      "rarity": "rare"
     },
     "publication": {
       "title": "Starfinder Guilt of the Grave World",
@@ -94,9 +94,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.4"
   },
   "_id": "XKW1SziWusHoaCRd",
   "sort": 0,

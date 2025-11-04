@@ -25,7 +25,38 @@
       "value": "<p>You've trained hard to tackle physical challenges of all types as part of your entertainment career. You gain a climb Speed or a swim Speed equal to your land Speed.</p><hr /><p><strong>Special</strong> You can select this feat more than once.</p>",
       "gm": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "PF2E.Actor.Speed.Type.Climb",
+            "value": "climb",
+            "predicate": [
+              {
+                "not": "stunt-double:climb"
+              }
+            ]
+          },
+          {
+            "label": "PF2E.Actor.Speed.Type.Swim",
+            "value": "swim",
+            "predicate": [
+              {
+                "not": "stunt-double:swim"
+              }
+            ]
+          }
+        ],
+        "rollOption": "stunt-double",
+        "flag": "speed"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "{item|flags.pf2e.rulesSelections.speed}",
+        "value": "@actor.system.movement.speeds.land.value"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.943,
@@ -36,7 +67,7 @@
       }
     },
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": 2,
     "actionType": {
       "value": "passive"
     },
@@ -69,9 +100,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!QImUeDyZg8KKzNdx"
 }

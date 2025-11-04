@@ -22,7 +22,7 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>Just like giving an encore performance of one of your most iconic roles, you learn how to better use your training off the set. You can now use Role Repertoire once per hour instead of once per day.</p>",
+      "value": "<p>Just like giving an encore performance of one of your most iconic roles, you learn how to better use your training off the set. You can now use @UUID[Compendium.sf2e-anachronism.feats.Item.oRZuA2FNSAcI9hO6]{Role Repertoire} once per hour instead of once per day.</p>",
       "gm": ""
     },
     "rules": [
@@ -80,9 +80,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!IBug8Fc4Usf9tE1N"
 }

@@ -22,10 +22,22 @@
       "authors": ""
     },
     "description": {
-      "value": "<p>Whether through atonement, supernatural evolution, or mutation, your internal organs have regrown and reconnected to your soul in such a way that you can gain pleasure from eating and drinking once again, giving you a flushed, healthy appearance. This gives you a +1 status bonus on Deception checks to appear as a non-undead creature. You can also now receive healing from items with the vitality trait that are eaten, ingested, absorbed, or injected (such as serums or oils), but you only receive half the normal amount of healing (rounded up).</p>",
+      "value": "<p>Whether through atonement, supernatural evolution, or mutation, your internal organs have regrown and reconnected to your soul in such a way that you can gain pleasure from eating and drinking once again, giving you a flushed, healthy appearance. This gives you a +1 status bonus on @Check[deception|options:necrogourmand] checks to appear as a non-undead creature. You can also now receive healing from items with the vitality trait that are eaten, ingested, absorbed, or injected (such as serums or oils), but you only receive half the normal amount of healing (rounded up).</p>",
       "gm": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "type": "status",
+        "selector": [
+          "deception"
+        ],
+        "predicate": [
+          "necrogourmand"
+        ]
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.943,
@@ -65,9 +77,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!ttLeQtd7BjUGHPuf"
 }

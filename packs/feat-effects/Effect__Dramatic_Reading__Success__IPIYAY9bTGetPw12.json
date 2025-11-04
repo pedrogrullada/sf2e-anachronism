@@ -1,15 +1,14 @@
 {
-  "folder": null,
-  "name": "Effect: Bone Shards",
+  "name": "Effect: Dramatic Reading (Success)",
   "type": "effect",
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.943,
+      "version": 0.95,
       "previous": null
     },
     "description": {
-      "value": "<p>Granted by @UUID[Compendium.sf2e-anachronism.feats.Item.6EULnMpte8cl2EET]{Bone Shards}</p><p>You gain a bone shards unarmed attack that deals 1d8 piercing damage. Your bone shards are in the projectile group and have the area (cone) trait with a range of 15 feet.</p>",
+      "value": "<p>Granted by @UUID[Compendium.sf2e-anachronism.feats.Item.QYQmAFvXirWpHeC3]{Dramatic Reading}</p><p>You take a –1 status penalty to Perception and Will saves.</p>",
       "gm": ""
     },
     "publication": {
@@ -20,23 +19,13 @@
     },
     "rules": [
       {
-        "damage": {
-          "base": {
-            "damageType": "piercing",
-            "dice": 1,
-            "die": "d8"
-          }
-        },
-        "traits": [
-          "area-cone"
-        ],
-        "range": {
-          "max": 15
-        },
-        "key": "Strike",
-        "slug": "bone-shards",
-        "label": "SF2E.SpecificRule.Corpsefolk.BoneShards.Label",
-        "group": "projectile"
+        "key": "FlatModifier",
+        "value": -1,
+        "type": "status",
+        "selector": [
+          "perception",
+          "will"
+        ]
       }
     ],
     "slug": null,
@@ -45,11 +34,11 @@
       "value": []
     },
     "level": {
-      "value": 13
+      "value": 1
     },
     "duration": {
       "value": 1,
-      "unit": "minutes",
+      "unit": "rounds",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -65,10 +54,13 @@
     "fromSpell": false,
     "context": null
   },
-  "img": "icons/skills/wounds/bone-broken-marrow-yellow.webp",
+  "_id": "IPIYAY9bTGetPw12",
+  "img": "icons/equipment/head/mask-craved-beige.webp",
+  "folder": null,
+  "sort": 700000,
   "ownership": {
     "default": 0,
-    "qA45GVv5hySaf9b5": 3
+    "lBn9t2oEMiiJjyzv": 3
   },
   "flags": {},
   "_stats": {
@@ -79,7 +71,5 @@
     "systemId": "pf2e",
     "systemVersion": "7.6.4"
   },
-  "_id": "CIO1HR8vbx61qpXw",
-  "sort": 100000,
-  "_key": "!items!CIO1HR8vbx61qpXw"
+  "_key": "!items!IPIYAY9bTGetPw12"
 }

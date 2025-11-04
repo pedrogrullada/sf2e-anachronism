@@ -729,6 +729,7 @@
                         "label": "SF2E.Trait.Missile",
                         "description": "SF2E.TraitDescription.Missile"
                     },
+                    "necrograft": "SF2E.Trait.Necrograft",
                     "nanite": "SF2E.Trait.Nanite",
                     "polymer": "SF2E.Trait.Polymer",
                     "retractable": {

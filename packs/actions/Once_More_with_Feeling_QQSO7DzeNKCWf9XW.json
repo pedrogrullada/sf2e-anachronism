@@ -33,7 +33,11 @@
       "value": null
     },
     "category": "defensive",
-    "deathNote": false
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
   },
   "_id": "QQSO7DzeNKCWf9XW",
   "img": "systems/pf2e/icons/actions/FreeAction.webp",
@@ -47,9 +51,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!QQSO7DzeNKCWf9XW"
 }

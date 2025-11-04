@@ -37,7 +37,7 @@
       }
     },
     "onlyLevel1": false,
-    "maxTakable": 1,
+    "maxTakable": 2,
     "actionType": {
       "value": "passive"
     },
@@ -66,9 +66,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.4"
   },
   "_key": "!items!JyzcpbqsVVbSpgvm"
 }
