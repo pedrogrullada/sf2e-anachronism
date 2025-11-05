@@ -479,62 +479,6 @@
       "_key": "!actors.items!kT4Inc0H9UO3yU5h.6vYw5KsU3k1ouQ6R"
     },
     {
-      "type": "action",
-      "name": "No Breath",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "description": {
-          "value": "<p>The monster doesn't breathe and is immune to effects that require breathing.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "defensive",
-        "deathNote": false
-      },
-      "effects": [],
-      "_id": "0q7LmrQMbjbAGgbB",
-      "img": "systems/pf2e/icons/actions/Passive.webp",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!kT4Inc0H9UO3yU5h.0q7LmrQMbjbAGgbB"
-    },
-    {
       "name": "Life Science Lore",
       "type": "lore",
       "system": {
@@ -1880,6 +1824,64 @@
         "default": 0
       },
       "_key": "!actors.items!kT4Inc0H9UO3yU5h.kKB5nmWouTFKoSJR"
+    },
+    {
+      "folder": null,
+      "name": "No Breath",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.95,
+          "previous": {
+            "schema": 0.946,
+            "foundry": "13.350",
+            "system": "7.6.4"
+          }
+        },
+        "description": {
+          "value": "<p>@Localize[SF2E.NPC.Abilities.Glossary.NoBreath]</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Alien Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "ownership": {
+        "default": 0,
+        "uALuXwktnyPWpcY7": 3,
+        "lBn9t2oEMiiJjyzv": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.creature-ability-glossary.Item.rePdFswJLQfoeDSp",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4"
+      },
+      "sort": 300000,
+      "_id": "snKxrdrYHA1Kw3hP",
+      "_key": "!actors.items!kT4Inc0H9UO3yU5h.snKxrdrYHA1Kw3hP"
     }
   ],
   "effects": [],

@@ -398,26 +398,26 @@
         "rules": [
           {
             "key": "RollOption",
+            "label": "SF2E.NPCAbility.Atlapak.AerialBuoyancy.Atmosphere",
             "option": "atmosphere",
             "suboptions": [
               {
-                "label": "Thick",
+                "label": "SF2E.NPCAbility.Atlapak.AerialBuoyancy.Thick",
                 "value": "thick"
               },
               {
-                "label": "Normal",
+                "label": "SF2E.NPCAbility.Atlapak.AerialBuoyancy.Normal",
                 "value": "normal"
               },
               {
-                "label": "Thin",
+                "label": "SF2E.NPCAbility.Atlapak.AerialBuoyancy.Thin",
                 "value": "thin"
               },
               {
-                "label": "None",
+                "label": "SF2E.NPCAbility.Atlapak.AerialBuoyancy.None",
                 "value": "none"
               }
             ],
-            "label": "Atmosphere",
             "toggleable": true,
             "alwaysActive": true,
             "value": true,
@@ -471,7 +471,7 @@
         "exportSource": null,
         "coreVersion": "13.350",
         "systemId": "pf2e",
-        "systemVersion": "7.6.2"
+        "systemVersion": "7.6.4"
       },
       "ownership": {
         "default": 0

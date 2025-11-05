@@ -316,33 +316,31 @@
             "option": "warp-field",
             "suboptions": [
               {
-                "label": "Cosmic",
+                "label": "SF2E.NPCAbility.WaywardWarp.WarpField.Cosmic",
                 "value": "cosmic"
               },
               {
-                "label": "Earth",
+                "label": "SF2E.NPCAbility.WaywardWarp.WarpField.Earth",
                 "value": "earth"
               },
               {
-                "label": "Inferno",
-                "value": "inferno"
-              },
-              {
-                "label": "Storm",
-                "value": "storm"
-              },
-              {
-                "label": "Frozen",
+                "label": "SF2E.NPCAbility.WaywardWarp.WarpField.Frozen",
                 "value": "frozen"
               },
               {
-                "label": "Water",
+                "label": "SF2E.NPCAbility.WaywardWarp.WarpField.Inferno",
+                "value": "inferno"
+              },
+              {
+                "label": "SF2E.NPCAbility.WaywardWarp.WarpField.Storm",
+                "value": "storm"
+              },
+              {
+                "label": "SF2E.NPCAbility.WaywardWarp.WarpField.Water",
                 "value": "water"
               }
             ],
-            "toggleable": true,
-            "value": true,
-            "selection": "cosmic"
+            "toggleable": true
           },
           {
             "key": "Resistance",
@@ -570,7 +568,7 @@
         "exportSource": null,
         "coreVersion": "13.350",
         "systemId": "pf2e",
-        "systemVersion": "7.6.2"
+        "systemVersion": "7.6.4"
       },
       "ownership": {
         "default": 0

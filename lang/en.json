@@ -333,8 +333,50 @@
             "Vesk": "Vesk",
             "Vlaka": "Vlaka"
         },
+        "NPC": {
+            "Abilities": {
+                "Glossary": {
+                    "Hover": "When a monster's land speed indicates that the creature hovers, its land Speed represents how fast it can move while hovering within 5 feet of a solid surface. Hovering creatures don't count as flying but might be able to avoid certain types of difficult or hazardous terrain, at the GM's discretion.",
+                    "NoBreath": "The monster doesn't breathe and is immune to effects that require breathing."
+                }
+            }
+        },
         "NPCAbility": {
+            "AeonGuard": {
+                "Commander": {
+                    "RallyTheTroops": {
+                        "Prompt": "Did the aeon guard end their movement adjacent to another aeon guard?"
+                    }
+                },
+                "Trooper": {
+                    "CoordinatedFire": {
+                        "Note": "Your target becomes @UUID[Compendium.sf2e-anachronism.conditions.enA7BxAjBb7ns1iF]{Suppressed} until the end of your next turn."
+                    }
+                }
+            },
+            "Arqsheth": {
+                "ArmamentOfTheArchons": {
+                    "StrikeLabel": "Arqsheth"
+                }
+            },
+            "Atlapak": {
+                "AerialBuoyancy": {
+                    "Atmosphere": "Atmosphere",
+                    "None": "None",
+                    "Normal": "Normal",
+                    "Thick": "Thick",
+                    "Thin": "Thin"
+                }
+            },
+            "Coposirix": {
+                "SeepIn": {
+                    "MaterialPrompt": "Was the damage dealt by a weapon made of a special material?"
+                }
+            },
             "CorpseFleet": {
+                "LeadSalvo": {
+                    "RollOptionLabel": "Lead Salvo — Additional number of d4s"
+                },
                 "JuniorOfficer": {
                     "RallyTheTroops": {
                         "Prompt": "Did your movement end next to the officer?"
@@ -343,6 +385,22 @@
             },
             "Hardlight": {
                 "TouchingProjectorLabel": "Touching Projector"
+            },
+            "Vorthuul": {
+                "QuantumDuality": {
+                    "AbsoluteTranquility": "Absolute Tranquility",
+                    "EverburningAgony": "Everburning Agony"
+                }
+            },
+            "WaywardWarp": {
+                "WarpField": {
+                    "Cosmic": "Cosmic",
+                    "Earth": "Earth",
+                    "Frozen": "Frozen",
+                    "Inferno": "Inferno",
+                    "Storm": "Storm",
+                    "Water": "Water"
+                }
             }
         },
         "SETTINGS": {

@@ -13,7 +13,7 @@
       }
     },
     "description": {
-      "value": "<p>When a monster's land speed indicates that the creature hovers, its land Speed represents how fast it can move while hovering within 5 feet of a solid surface. Hovering creatures don't count as flying but might be able to avoid certain types of difficult or hazardous terrain, at the GM's discretion.</p>",
+      "value": "<p>@Localize[SF2E.NPC.Abilities.Glossary.Hover]</p>",
       "gm": ""
     },
     "publication": {
@@ -50,7 +50,7 @@
     "exportSource": null,
     "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.6.4"
   },
   "_id": "eqmLD72i3cG8ybAn",
   "sort": 100000,

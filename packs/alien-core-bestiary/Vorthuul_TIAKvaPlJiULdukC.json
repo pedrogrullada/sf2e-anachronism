@@ -473,17 +473,15 @@
             "option": "quantum-duality",
             "suboptions": [
               {
-                "label": "Absolute Tranquility",
+                "label": "SF2E.NPCAbility.Vorthuul.QuantumDuality.AbsoluteTranquility",
                 "value": "absolute-tranquility"
               },
               {
-                "label": "Everburning Agony",
+                "label": "SF2E.NPCAbility.Vorthuul.QuantumDuality.EverburningAgony",
                 "value": "everburning-agony"
               }
             ],
-            "toggleable": true,
-            "value": true,
-            "selection": "absolute-tranquility"
+            "toggleable": true
           },
           {
             "key": "FlatModifier",
@@ -557,7 +555,7 @@
         "exportSource": null,
         "coreVersion": "13.350",
         "systemId": "pf2e",
-        "systemVersion": "7.6.2"
+        "systemVersion": "7.6.4"
       },
       "ownership": {
         "default": 0
