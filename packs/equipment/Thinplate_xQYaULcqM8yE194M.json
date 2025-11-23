@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This sleek but rigid plate armor is often constructed from translucent materials to show off a wearer's dermal circuitry and worn under baggy clothing.</p>"
     },
     "rules": [],
-    "slug": "thinplate",
+    "slug": "commercial-thinplate",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -80,6 +80,7 @@
     "dexCap": 1,
     "checkPenalty": -3,
     "speedPenalty": -10,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -94,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

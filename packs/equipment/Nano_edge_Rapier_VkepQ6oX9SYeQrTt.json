@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The edge of this precision-crafted foil is sharpened to the thickness of a single atom, using regenerating nanites to maintain itself after countless strikes.</p>"
     },
     "rules": [],
-    "slug": "nano-edge-rapier",
+    "slug": "commercial-nano-edge-rapier",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -96,9 +96,11 @@
     },
     "range": null,
     "expend": null,
+    "ammo": null,
     "reload": {
       "value": null
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -130,9 +132,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

@@ -23,7 +23,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "nymph-queen-astronomical-ties",
     "traits": {
       "otherTags": [],
       "value": []
@@ -48,9 +48,9 @@
     "compendiumSource": null,
     "duplicateSource": "Item.ml0jNHgKdoyLK9Or",
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.7.3"
   },
   "_id": "6NHVOXLu63GE6xMy",
   "_key": "!items!6NHVOXLu63GE6xMy"

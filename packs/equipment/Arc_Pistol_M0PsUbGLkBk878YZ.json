@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Instead of traditional ammunition, this bulky pistol contains a capacitor that generates arcs of electricity. Its stock is crafted from polycarbon or other synthetic insulators, often tinted bright yellow and inscribed with the universal bolt symbol for high voltage.</p>"
     },
     "rules": [],
-    "slug": "arc-pistol",
+    "slug": "commercial-arc-pistol",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -94,9 +94,11 @@
     },
     "range": 30,
     "expend": 2,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -128,9 +130,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

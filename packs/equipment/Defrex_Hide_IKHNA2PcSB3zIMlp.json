@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Made from the hide of a ferocious mammal native to Vesk-2, this medium armor is especially popular among vesk. Tanned slabs of the creature's thick hide are stitched together with metal wires, and the joints are reinforced with metal studs or scales.</p>"
     },
     "rules": [],
-    "slug": "defrex-hide",
+    "slug": "commercial-defrex-hide",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -80,6 +80,7 @@
     "dexCap": 2,
     "checkPenalty": -2,
     "speedPenalty": -5,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -94,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

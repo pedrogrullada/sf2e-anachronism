@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Resembling a large directional speaker held in two hands, a screamer produces a deafening boom. At lower volumes, a screamer functions as a portable loudspeaker.</p>"
     },
     "rules": [],
-    "slug": "screamer",
+    "slug": "commercial-screamer",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -95,9 +95,11 @@
     },
     "range": 15,
     "expend": 2,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -129,9 +131,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

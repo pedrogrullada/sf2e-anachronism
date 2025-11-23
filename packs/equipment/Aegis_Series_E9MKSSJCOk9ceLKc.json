@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 0</p><hr /><p>Aegis armor suits are starmetal-infused shells that encase the wearer entirely, including an attached visorless helmet that's often sculpted into a custom style. Sensors built into the suit feed sensory information to the wearer, and powered limbs aid maneuvers. Movement in an aegis suit is clumsy, but powerful.</p>"
     },
     "rules": [],
-    "slug": "aegis-series",
+    "slug": "commercial-aegis-series",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -81,6 +81,7 @@
     "dexCap": 0,
     "checkPenalty": -3,
     "speedPenalty": -10,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -95,9 +96,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

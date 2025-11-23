@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This glove features dozens of delicate tools for building or repairing computers and other technological items, requiring an entire hand (or suitable appendage) to manipulate. Overclocking the polyglove's components generates voltage between a wielder's fingertips.</p>"
     },
     "rules": [],
-    "slug": "polyglove",
+    "slug": "commercial-polyglove",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -96,9 +96,11 @@
     },
     "range": null,
     "expend": null,
+    "ammo": null,
     "reload": {
       "value": null
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -130,9 +132,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

@@ -23,7 +23,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "robotic-war-machine-notch-position",
     "traits": {
       "otherTags": [],
       "value": []
@@ -48,9 +48,9 @@
     "compendiumSource": null,
     "duplicateSource": "Item.5aeXp6TnJK5nduhk",
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.7.3"
   },
   "_id": "1pQkINbQ9AFEAhT3",
   "_key": "!items!1pQkINbQ9AFEAhT3"

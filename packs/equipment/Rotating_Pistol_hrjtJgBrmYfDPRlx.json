@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A time-tested design favored by traditional gunslingers, the multiple barrels on this pistol mechanically rotate while firing, making it less likely to malfunction.</p>"
     },
     "rules": [],
-    "slug": "rotating-pistol",
+    "slug": "commercial-rotating-pistol",
     "_migration": {
       "version": 0.94,
       "lastMigration": null
@@ -91,6 +91,7 @@
     },
     "range": 60,
     "expend": 1,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
@@ -115,9 +116,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.7.3"
   },
   "_key": "!items!hrjtJgBrmYfDPRlx"
 }

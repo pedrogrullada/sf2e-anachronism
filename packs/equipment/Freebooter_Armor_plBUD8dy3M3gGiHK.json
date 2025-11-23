@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Freebooter armor is named for the pirates and outlaws who often wear these outfits. Freebooter armor typically consists of a breastplate worn under a jacket or flight suit, heavy boots and gloves, a helmet, and hidden straps and holsters for concealing weapons.</p>"
     },
     "rules": [],
-    "slug": "freebooter-armor",
+    "slug": "commercial-freebooter-armor",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -80,6 +80,7 @@
     "dexCap": 1,
     "checkPenalty": -2,
     "speedPenalty": -5,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -94,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

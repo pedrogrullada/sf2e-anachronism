@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 0</p><hr /><p>This comfortable coverall is made from lightweight thermal fabric and often adorned with patches displaying personal insignia, military rank, or even favorite bands or sports teams.</p>"
     },
     "rules": [],
-    "slug": "flight-suit",
+    "slug": "commercial-flight-suit",
     "_migration": {
       "version": 0.94,
       "lastMigration": null
@@ -76,6 +76,7 @@
     "dexCap": 5,
     "checkPenalty": 0,
     "speedPenalty": 0,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -96,9 +97,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "_key": "!items!dnv1OFVU6BpyfAWi"
 }

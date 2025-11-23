@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 2</p><hr /><p>AbadarCorp executives popularized these armored business suits for boardrooms and battle. Contingent force fields and concealed plating protect the wearer in hostile situations. Higher grades of travel suits offer more protection—along with a designer label.</p>"
     },
     "rules": [],
-    "slug": "abadarcorp-travel-suit",
+    "slug": "commercial-abadarcorp-travel-suit",
     "_migration": {
       "version": 0.94,
       "lastMigration": null
@@ -97,9 +97,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.7.3"
   },
   "_key": "!items!ehsCl5WJTANTlzBy"
 }

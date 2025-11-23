@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This portable reaction cannon launches flak from miniature cluster missiles that rip through a fortified structure and anyone unfortunate enough to be inside.</p>"
     },
     "rules": [],
-    "slug": "reaction-breacher",
+    "slug": "commercial-reaction-breacher",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -95,9 +95,11 @@
     },
     "range": 100,
     "expend": 1,
+    "ammo": null,
     "reload": {
       "value": "2"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -129,9 +131,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

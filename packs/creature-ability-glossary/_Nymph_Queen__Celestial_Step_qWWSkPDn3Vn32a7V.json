@@ -23,7 +23,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "nymph-queen-celestial-step",
     "traits": {
       "otherTags": [],
       "value": [
@@ -51,9 +51,9 @@
     "compendiumSource": null,
     "duplicateSource": "Item.ml0jNHgKdoyLK9Or",
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.7.3"
   },
   "_id": "qWWSkPDn3Vn32a7V",
   "_key": "!items!qWWSkPDn3Vn32a7V"

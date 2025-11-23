@@ -23,7 +23,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "infiltrator-robot-reactive-camouflage",
     "traits": {
       "otherTags": [],
       "value": []
@@ -48,9 +48,9 @@
     "compendiumSource": null,
     "duplicateSource": "Item.95jrq981CcDFIvtF",
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.7.3"
   },
   "_id": "zphTNvioP3r5s6bj",
   "_key": "!items!zphTNvioP3r5s6bj"

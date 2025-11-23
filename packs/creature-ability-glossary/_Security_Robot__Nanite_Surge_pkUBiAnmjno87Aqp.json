@@ -23,7 +23,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "security-robot-nanite-surge",
     "traits": {
       "otherTags": [],
       "value": []
@@ -52,9 +52,9 @@
     "compendiumSource": null,
     "duplicateSource": "Item.eBk94uigTDYQTQZ8",
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.7.3"
   },
   "_id": "pkUBiAnmjno87Aqp",
   "_key": "!items!pkUBiAnmjno87Aqp"

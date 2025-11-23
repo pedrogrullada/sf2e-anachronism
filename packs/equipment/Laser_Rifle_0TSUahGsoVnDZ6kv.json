@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These dependable, mass-produced rifles shoot concentrated beams of energy out of square-shaped barrels. The universal standard Pact Worlds model is highly modifiable and designed to function with a variety of accessories and upgrades, with wielders adapting the laser rifle to their preferences and even kit-bashing it into a nearly unrecognizable weapon.</p>"
     },
     "rules": [],
-    "slug": "laser-rifle",
+    "slug": "commercial-laser-rifle",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -93,9 +93,11 @@
     },
     "range": 100,
     "expend": 2,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -127,9 +129,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

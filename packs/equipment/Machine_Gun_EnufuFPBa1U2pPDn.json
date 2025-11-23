@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>"
     },
     "rules": [],
-    "slug": "machine-gun",
+    "slug": "commercial-machine-gun",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -94,9 +94,11 @@
     },
     "range": 40,
     "expend": 1,
+    "ammo": null,
     "reload": {
       "value": "2"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -128,9 +130,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

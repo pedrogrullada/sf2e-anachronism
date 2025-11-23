@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A scattergun is a long-barreled firearm that fires numerous spherical projectiles to hit multiple targets.</p>"
     },
     "rules": [],
-    "slug": "scattergun",
+    "slug": "commercial-scattergun",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -96,9 +96,11 @@
     },
     "range": 15,
     "expend": 1,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -130,9 +132,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

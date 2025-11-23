@@ -90,9 +90,14 @@
     },
     "range": 70,
     "expend": 1,
+    "ammo": {
+      "builtIn": false,
+      "baseType": null
+    },
     "reload": {
       "value": "-"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -112,9 +117,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "_id": "7y8IWTlnQnnjkfXe",
   "_key": "!items!7y8IWTlnQnnjkfXe"

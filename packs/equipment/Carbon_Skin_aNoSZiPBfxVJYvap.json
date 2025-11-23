@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This form-fitting suit of carbon fiber encases the body. Most are usually dull-gray, functional garments, while pricier, bespoke suits dazzle like diamonds.</p>"
     },
     "rules": [],
-    "slug": "carbon-skin",
+    "slug": "commercial-carbon-skin",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -80,6 +80,7 @@
     "dexCap": 4,
     "checkPenalty": -1,
     "speedPenalty": 0,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -94,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

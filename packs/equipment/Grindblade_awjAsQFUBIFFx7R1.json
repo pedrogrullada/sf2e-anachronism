@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The edge of this broad-tipped sword is composed of micro-splitting nanoparticles that slice apart targets with surgical precision.</p>"
     },
     "rules": [],
-    "slug": "grindblade",
+    "slug": "commercial-grindblade",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -95,9 +95,11 @@
     },
     "range": null,
     "expend": null,
+    "ammo": null,
     "reload": {
       "value": null
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -129,9 +131,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

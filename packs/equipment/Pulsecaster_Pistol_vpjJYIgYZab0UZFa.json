@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This imposing pistol fires a jolt of paralyzing electricity from its barrel. Its remaining charges are visible as glowing lines of energy radiating down its body. Pulsecaster pistols are often used by bounty hunters and law enforcement who need to keep their targets alive.</p>"
     },
     "rules": [],
-    "slug": "pulsecaster-pistol",
+    "slug": "commercial-pulsecaster-pistol",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -94,9 +94,11 @@
     },
     "range": 30,
     "expend": 2,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -128,9 +130,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

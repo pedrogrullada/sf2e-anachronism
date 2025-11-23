@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Flexible but sturdy plates layered together form this traditional armor worn by lashunta cavalry on Castrovel. In times past, a shotalashu cavalry member forged their armor from their mount's shed skin, or more rarely, the skin of a fallen mount, to honor them in future battles. Synthetic imitations are fashionable on some parts of Castrovel.</p>"
     },
     "rules": [],
-    "slug": "shotalashu-armor",
+    "slug": "commercial-shotalashu-armor",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -80,6 +80,7 @@
     "dexCap": 2,
     "checkPenalty": -2,
     "speedPenalty": -5,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -94,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

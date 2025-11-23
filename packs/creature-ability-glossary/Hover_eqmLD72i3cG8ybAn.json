@@ -23,7 +23,7 @@
       "remaster": true
     },
     "rules": [],
-    "slug": null,
+    "slug": "hover",
     "traits": {
       "otherTags": [],
       "value": []
@@ -48,9 +48,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.7.3"
   },
   "_id": "eqmLD72i3cG8ybAn",
   "sort": 100000,

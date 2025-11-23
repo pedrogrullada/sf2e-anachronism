@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A rotolaser fires multiple beams of plasma at once. This massive assault rifle has a set of rotating barrels that prevent overheating when spewing auto-fire.</p>"
     },
     "rules": [],
-    "slug": "rotolaser",
+    "slug": "commercial-rotolaser",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -94,9 +94,11 @@
     },
     "range": 30,
     "expend": 1,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -128,9 +130,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

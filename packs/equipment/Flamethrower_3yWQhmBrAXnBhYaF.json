@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This bulky, rifle-shaped weapon spews flames using a tank of highly combustible, pressurized chemicals housed in its stock.</p>"
     },
     "rules": [],
-    "slug": "flamethrower",
+    "slug": "commercial-flamethrower",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -95,9 +95,11 @@
     },
     "range": 15,
     "expend": 2,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -129,9 +131,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

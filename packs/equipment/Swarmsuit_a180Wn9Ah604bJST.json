@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Specialized nanites form a mesh suit that shifts to fit wearers with unique or transformable physiologies.</p>"
     },
     "rules": [],
-    "slug": "swarmsuit",
+    "slug": "commercial-swarmsuit",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -97,9 +97,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.4.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

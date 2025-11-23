@@ -28,7 +28,7 @@
         ]
       }
     ],
-    "slug": null,
+    "slug": "effect-blood-renewal",
     "traits": {
       "otherTags": [],
       "value": []
@@ -64,9 +64,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.7.3"
   },
   "_id": "qj97oOs2Z2qk9w00",
   "sort": 2000000,

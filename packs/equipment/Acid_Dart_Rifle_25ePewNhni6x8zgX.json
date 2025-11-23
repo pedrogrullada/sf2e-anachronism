@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle uses compressed air to shoot tiny, chambered darts loaded with components for a highly corrosive compound that remains separated until launched, allowing for nearly unlimited shelf life with minimal risk of accidental exposure.</p>"
     },
     "rules": [],
-    "slug": "acid-dart-rifle",
+    "slug": "commercial-acid-dart-rifle",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -93,9 +93,11 @@
     },
     "range": 80,
     "expend": 1,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -127,9 +129,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

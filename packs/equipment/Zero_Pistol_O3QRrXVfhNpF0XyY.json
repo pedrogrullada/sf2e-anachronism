@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Zero pistols use transparent canisters of supercooled liquid as ammunition.</p>"
     },
     "rules": [],
-    "slug": "zero-pistol",
+    "slug": "commercial-zero-pistol",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -93,9 +93,11 @@
     },
     "range": 30,
     "expend": 2,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -127,9 +129,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

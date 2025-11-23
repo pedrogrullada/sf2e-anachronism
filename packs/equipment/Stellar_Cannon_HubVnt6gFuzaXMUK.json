@@ -8,7 +8,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The rounds of this portable cannon are loaded with carefully positioned mini-missiles packed with flechettes that shred anyone too close to the blast.</p>"
     },
     "rules": [],
-    "slug": "stellar-cannon",
+    "slug": "commercial-stellar-cannon",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -94,9 +94,11 @@
     },
     "range": 50,
     "expend": 1,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -128,9 +130,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "folder": "V89RPpe7fyCFC6NS",
   "ownership": {

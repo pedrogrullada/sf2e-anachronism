@@ -26,7 +26,7 @@
         "value": "ghost-touch"
       }
     ],
-    "slug": null,
+    "slug": "digital-ghost-virtual-arms",
     "traits": {
       "otherTags": [],
       "value": [
@@ -54,9 +54,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.2"
+    "systemVersion": "7.7.3"
   },
   "_key": "!items!y8pub4i3nwD4W2DO"
 }

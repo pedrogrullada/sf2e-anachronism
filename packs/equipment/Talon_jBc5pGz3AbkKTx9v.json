@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This stylized knife tapers into a curved and serrated blade. When powered, it spews a highly corrosive acid inspired by the armor-melting talons evolved by several species of the Swarm.</p>"
     },
     "rules": [],
-    "slug": "talon",
+    "slug": "commercial-talon",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -98,9 +98,11 @@
     },
     "range": null,
     "expend": null,
+    "ammo": null,
     "reload": {
       "value": null
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -132,9 +134,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

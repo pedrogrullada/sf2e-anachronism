@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This heavy armor is made of interlocking metal plates contoured to the wearer's body with a scaled pattern. Tailguards and clawed gloves are standard for this armor.</p>"
     },
     "rules": [],
-    "slug": "veskarium-imperial-plate",
+    "slug": "commercial-veskarium-imperial-plate",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -81,6 +81,7 @@
     "dexCap": 0,
     "checkPenalty": -3,
     "speedPenalty": -10,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -95,9 +96,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

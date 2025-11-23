@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Composed of two 4-foot-long protracting rails, this weapon shoots arcs of electricity at targets, emitted safely away from its wielder.</p>"
     },
     "rules": [],
-    "slug": "arc-emitter",
+    "slug": "commercial-arc-emitter",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -96,9 +96,11 @@
     },
     "range": 20,
     "expend": 2,
+    "ammo": null,
     "reload": {
       "value": "1"
     },
+    "grade": null,
     "runes": {
       "potency": 0,
       "striking": 0,
@@ -130,9 +132,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,

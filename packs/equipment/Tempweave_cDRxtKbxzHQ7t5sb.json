@@ -9,7 +9,7 @@
       "value": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>"
     },
     "rules": [],
-    "slug": "tempweave",
+    "slug": "commercial-tempweave",
     "_migration": {
       "version": 0.94,
       "lastMigration": null,
@@ -80,6 +80,7 @@
     "dexCap": 4,
     "checkPenalty": -1,
     "speedPenalty": 0,
+    "grade": null,
     "runes": {
       "potency": 0,
       "resilient": 0,
@@ -94,9 +95,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,
