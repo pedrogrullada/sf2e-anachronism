@@ -1681,8 +1681,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.94,
-          "previous": null
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
         },
         "description": {
           "value": "<p>Your deep understanding of the stellar forces of the universe manifests in a variety of tangible ways. You can create and maintain three different manifestations: a solar flare, solar nimbus, and solar weapon. Your manifestations temporarily vanish if you become unattuned.</p><h2>Solar Flare</h2><p>A small mote of solar power hovers nearby or appears embedded on some part of your body, such as the palm of your hand or on your face. This mote can unleash a directed blast of energy at short range. Your solar flare is a martial ranged weapon in the brawling weapon group with the attuned and solarian traits. It doesn't take up a hand and doesn't need to be held to be wielded. Your solar flare can't be targeted by other creatures or removed from your person, except for when you become unattuned. Your attunement determines the damage type and range increment of your solar flare. You add your Strength modifier to damage rolls with your solar flare. You can improve the damage of your solar flare with solarian crystals.</p><p><strong>Graviton-Attuned</strong> 1d8 bludgeoning, range increment 15 feet. On a critical success, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the target as a free action, even if you don't have a free hand or aren't adjacent to the target.</p><p><strong>Photon-Attuned</strong> 1d6 fire, range increment 30 feet. On a critical success, the target additionally takes 1d6 persistent fire damage.</p><h2>Solar Nimbus</h2><p>A layer of stellar energy surrounds you, overlaying your body or worn armor. It appears as a layer of glowing light or solid darkness, depending on your current state of attunement. The general appearance and shape of the nimbus is your choice and could appear as a lattice of energy surrounding you or imposing spiked energy armor layered atop your existing equipment. This design has no impact on its function and doesn't provide any additional bonuses.</p><p>You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.q7UDeO9Ko1EbPRWm]{Nimbus Surge} reaction.</p><h2>Solar Weapon</h2><p>Through sheer will, you call forth a tangible weapon forged from the essence of stars. This weapon is an extension of yourself, and you can change its form with meditation. When manifesting your weapon, it appears in a free hand of your choice. If it has the free-hand trait, it can manifest in any hand. Your solar weapon is a martial melee weapon. It deals 1d8 of your choice of bludgeoning, piercing, or slashing damage with the attuned and solarian traits.</p><p>At first level, choose up to two of the following traits for your weapon. Alternatively, you can select the reach or two-hand 1d10 trait for your weapon instead of selecting two of the following traits.</p><ul><li>Disarm</li><li>Free-Hand</li><li>Grapple</li><li>Nonlethal</li><li>Parry</li><li>Shove</li><li>Sweep</li><li>Trip</li><li>Versatile (B/P/S only)</li><li>Reach (counts as two traits)</li><li>Two-Hand 1d10 (counts as two traits)</li></ul><p>You can select one of the following weapon groups for your weapon to be a part of.</p><ul><li>Axe</li><li>Brawling</li><li>Club</li><li>Flail</li><li>Hammer</li><li>Knife</li><li>Pick</li><li>Polearm</li><li>Spear</li><li>Sword</li></ul><p>Your solar weapon gains additional benefits based on your current attunement.</p><p><strong>Graviton-Attuned</strong> When you successfully Strike a creature using your solar weapon, that creature's space and all squares adjacent to it are difficult terrain for that creature until the end of its next turn.</p><p><strong>Photon-Attuned</strong> When you successfully Strike a creature with your solar weapon, you deal an additional amount of fire damage equal to half your level (rounded up). Your solar weapon casts bright light in a 5-foot radius (and dim light for the next 5 feet).</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]{Effect: Solar Weapon}</p><p>@UUID[Compendium.sf2e-anachronism.actions.Item.uvtdqSfKD6oXNA29]{Re-Forge Solar Weapon}</p>",
@@ -1765,7 +1769,11 @@
                 ]
               }
             ],
-            "img": "modules/sf2e-anachronism/art/icons/abilities/red-comet.webp"
+            "img": "modules/sf2e-anachronism/art/icons/abilities/red-comet.webp",
+            "traits": [
+              "attuned",
+              "solarian"
+            ]
           },
           {
             "key": "FlatModifier",
@@ -1873,33 +1881,35 @@
       },
       "img": "icons/magic/light/explosion-star-glow-orange.webp",
       "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
       "flags": {
         "pf2e": {
           "itemGrants": {
             "nimbusSurge": {
-              "id": "KzTmFXdvBwXyKRr1",
+              "id": "oEgQ1HCvNKH3OjRL",
               "onDelete": "detach"
             },
             "reForgeSolarWeapon": {
-              "id": "O7kEDfg07cMMug4g",
+              "id": "jLh8k6x6SwtqC0lj",
               "onDelete": "detach"
             }
           }
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.uUzVTZ7XohXlavB6",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.7.4"
       },
-      "_id": "W8sUdZApcyyqPruM",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.W8sUdZApcyyqPruM"
+      "_id": "k2S56aMDjfCQKWaH",
+      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.k2S56aMDjfCQKWaH"
     },
     {
       "folder": "dZU6Qha5YEciS9PU",
@@ -1908,8 +1918,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.94,
-          "previous": null
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
         },
         "description": {
           "value": "<p>As a solarian, your existence cycles between the aspects of stars. You begin with two aspects: photon (the power of stars to emit heat, light, and plasma) and graviton (the power of stars to attract and imprison objects through gravity). At any time, you're considered graviton-attuned, photon-attuned, or unattuned. Many of your abilities have additional effects based on your current attunement, and some abilities swap your current state of attunement to another state.</p><p>You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.3xDhpvORBmK6AtcI]{Attune} action.</p>",
@@ -1981,29 +1995,31 @@
       },
       "img": "icons/magic/light/explosion-star-large-orange-purple.webp",
       "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
       "flags": {
         "pf2e": {
           "itemGrants": {
             "attune": {
-              "id": "zyZDSU40jLUzd7Ox",
+              "id": "o2TP5HfSZX1jr2K8",
               "onDelete": "detach"
             }
           }
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.kZ7qB7yZMRCdMad3",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.7.4"
       },
-      "_id": "5E0UKpVMJu4OVpPp",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.5E0UKpVMJu4OVpPp"
+      "_id": "qJZ3A0i1Ip6ncQyr",
+      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.qJZ3A0i1Ip6ncQyr"
     },
     {
       "folder": "UwZefzAbVs0v3hbJ",
@@ -2012,8 +2028,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.94,
-          "previous": null
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
         },
         "description": {
           "value": "<p><strong>Trigger</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using.</p><hr /><p>Your nimbus surges with energy, forcing an opening in your foe's defenses. Make a melee Strike against the triggering creature. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p><p><strong>Graviton-Attuned</strong> If the Strike is a critical success, the target must succeed at a @Check[fortitude|against:solarian] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of its turn.</p><p><strong>Photon-Attuned</strong> If the Strike is a critical success, the target must succeed at a @Check[fortitude|against:solarian] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of its turn.</p>",
@@ -2093,27 +2113,29 @@
       },
       "img": "systems/pf2e/icons/actions/Reaction.webp",
       "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
       "flags": {
         "pf2e": {
           "grantedBy": {
-            "id": "W8sUdZApcyyqPruM",
+            "id": "k2S56aMDjfCQKWaH",
             "onDelete": "cascade"
           }
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.q7UDeO9Ko1EbPRWm",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.7.4"
       },
-      "_id": "KzTmFXdvBwXyKRr1",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.KzTmFXdvBwXyKRr1"
+      "_id": "oEgQ1HCvNKH3OjRL",
+      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.oEgQ1HCvNKH3OjRL"
     },
     {
       "folder": "UwZefzAbVs0v3hbJ",
@@ -2122,8 +2144,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.94,
-          "previous": null
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
         },
         "description": {
           "value": "<p>You spend 10 minutes focusing on the composition of your solar weapon. You can change your solar weapon's damage type (typically choosing between bludgeoning, piercing, or slashing), selected traits, and weapon group. Your weapon maintains your selections until the next time you Re-Forge Solar Weapon.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]{Effect: Solar Weapon}</p>",
@@ -2156,27 +2182,29 @@
       },
       "img": "systems/pf2e/icons/actions/LongerAction.webp",
       "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
       "flags": {
         "pf2e": {
           "grantedBy": {
-            "id": "W8sUdZApcyyqPruM",
+            "id": "k2S56aMDjfCQKWaH",
             "onDelete": "cascade"
           }
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.uvtdqSfKD6oXNA29",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.7.4"
       },
-      "_id": "O7kEDfg07cMMug4g",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.O7kEDfg07cMMug4g"
+      "_id": "jLh8k6x6SwtqC0lj",
+      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.jLh8k6x6SwtqC0lj"
     },
     {
       "folder": "UwZefzAbVs0v3hbJ",
@@ -2185,11 +2213,15 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.94,
-          "previous": null
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
         },
         "description": {
-          "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You steady your body and mind and attune yourself to the stellar aspect of your choice. You become attuned to photon or graviton. You can also manifest any of your solar manifestations if they're currently dormant and if you have the free hands to use them.</p><hr /><p><strong>Special</strong> In addition to the above usage, you can also Attune as a free action when you roll initiative.</p>",
+          "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You steady your body and mind and attune yourself to the stellar aspect of your choice. You become attuned to photon or graviton. You can also manifest any of your solar manifestations if they're currently dormant and if you have the free hands to use them.</p><hr /><p><strong>Special</strong> In addition to the above usage, you can also Attune as a free action when you roll initiative.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]{Effect: Solar Weapon}</p><p></p>",
           "gm": ""
         },
         "publication": {
@@ -2222,27 +2254,29 @@
       },
       "img": "systems/pf2e/icons/actions/OneAction.webp",
       "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
       "flags": {
         "pf2e": {
           "grantedBy": {
-            "id": "5E0UKpVMJu4OVpPp",
+            "id": "qJZ3A0i1Ip6ncQyr",
             "onDelete": "cascade"
           }
         }
       },
       "_stats": {
-        "compendiumSource": null,
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.3xDhpvORBmK6AtcI",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.2.3"
+        "systemVersion": "7.7.4"
       },
-      "_id": "zyZDSU40jLUzd7Ox",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.zyZDSU40jLUzd7Ox"
+      "_id": "o2TP5HfSZX1jr2K8",
+      "_key": "!actors.items!5ZlwxuRvhvl3Yguw.o2TP5HfSZX1jr2K8"
     }
   ],
   "flags": {
@@ -2254,9 +2288,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "ownership": {
     "default": 1,

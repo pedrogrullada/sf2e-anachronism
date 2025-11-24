@@ -967,499 +967,6 @@
       "_key": "!actors.items!YFjGddgClv932YKm.dhJTB7JCoKQBQpQI"
     },
     {
-      "folder": "WBjjjwVoDYQAYYe0",
-      "name": "Operative's Specialization",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>As an operative, you have a particular set of skills based on your tactical style. These different specializations help define your character and the approach you take to most situations. Choose an operative's specialization. This specialization grants you training in one skill, a skill feat for that skill, and an exploit. At 9th level, you gain the enhanced exploit granted by your specialization. The specializations presented in this book are as follows.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.1bgDbGzALewzo7cy]{Ghost}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.u4hB3FGFJwGtjrZB]{Infiltrator}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.HSKJ1VkPdlMkcqzc]{Skirmisher}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.OCWsQQ95P7ecp7Rn]{Sniper}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.EpxKCi6G0KnWQhHP]{Striker}</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "adjustName": false,
-            "choices": {
-              "filter": [
-                "item:tag:operative-specialization"
-              ]
-            },
-            "flag": "specialization",
-            "key": "ChoiceSet",
-            "prompt": "SF2E.SpecificRule.Operative.Specialization.Prompt",
-            "selection": "Compendium.sf2e-anachronism.class-features.Item.HSKJ1VkPdlMkcqzc"
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "{item|flags.pf2e.rulesSelections.specialization}",
-            "flag": "skirmisher"
-          }
-        ],
-        "slug": "operatives-specialization",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "operative"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "dhJTB7JCoKQBQpQI"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-future-circle-insignia.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "skirmisher": {
-              "id": "V3eQ3rnpjaKdaJvE",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "4QZKxNkYuLB3Xqs6",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!YFjGddgClv932YKm.4QZKxNkYuLB3Xqs6"
-    },
-    {
-      "folder": "WBjjjwVoDYQAYYe0",
-      "name": "Sharpshooter",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You can spot a target's weak points, letting you deal additional precision damage with most types of ranged weapons. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]{Aim} action.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC",
-            "flag": "aim"
-          }
-        ],
-        "slug": "sharpshooter",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "operative"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "dhJTB7JCoKQBQpQI"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/rifle-scoped.webp",
-      "sort": 100,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "aim": {
-              "id": "BgF3JGroKxoC0pHL",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "xihpXrJrLWpxE65I",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!YFjGddgClv932YKm.xihpXrJrLWpxE65I"
-    },
-    {
-      "folder": "9feZwdAlvdlYJ3gO",
-      "name": "Skirmisher",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You specialize in close-quarters missions that require you to operate in crowded or tight spaces, such as inside buildings or vehicles, down narrow alleys, or in busy downtown streets. Whether you're a mugger, bodyguard, assassin, or urban mercenary, you favor pistols and can use them efficiently in tight spaces. You're trained in Acrobatics. You gain a skill feat for Acrobatics.</p><p><strong>Exploit:</strong> You're trained to fight in close combat using pistols. Your ranged Strikes with one-handed ranged weapons don't trigger reactions that are triggered by a ranged attack.</p><p><strong>Enhanced Exploit:</strong> Your point-blank shots are particularly deadly. When you make a successful Strike against an adjacent enemy with a one-handed ranged weapon, you calculate the damage as if the lowest-rolled weapon damage die for the attack had the maximum result instead. At 17th level, the two lowest-rolled damage dice increase to the maximum result.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "ActiveEffectLike",
-            "mode": "upgrade",
-            "path": "system.skills.acrobatics.rank",
-            "value": 1
-          },
-          {
-            "adjustName": false,
-            "key": "ChoiceSet",
-            "choices": {
-              "filter": [
-                "item:category:skill",
-                "item:level:1"
-              ],
-              "itemType": "feat"
-            },
-            "flag": "feat",
-            "prompt": "PF2E.SpecificRule.Prompt.SkillFeat",
-            "selection": "Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM"
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "{item|flags.pf2e.rulesSelections.feat}",
-            "flag": "steadyBalance"
-          }
-        ],
-        "slug": "skirmisher",
-        "traits": {
-          "otherTags": [
-            "operative-specialization"
-          ],
-          "value": [
-            "operative"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": null
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/green-mech-blade.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "4QZKxNkYuLB3Xqs6",
-            "onDelete": "cascade"
-          },
-          "itemGrants": {
-            "steadyBalance": {
-              "id": "1S6BoYQXj14jSuiW",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "V3eQ3rnpjaKdaJvE",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!YFjGddgClv932YKm.V3eQ3rnpjaKdaJvE"
-    },
-    {
-      "folder": "y1yqadf5jPHJk1jW",
-      "img": "icons/sundries/books/book-red-exclamation.webp",
-      "name": "Steady Balance",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "skill",
-        "description": {
-          "value": "<p>You can keep your balance easily, even in adverse conditions. Whenever you roll a success using the @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} action, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while attempting to Balance on narrow surfaces and uneven ground.</p>",
-          "gm": ""
-        },
-        "level": {
-          "value": 1
-        },
-        "prerequisites": {
-          "value": [
-            {
-              "value": "trained in Acrobatics"
-            }
-          ]
-        },
-        "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Player Core",
-          "authors": ""
-        },
-        "rules": [
-          {
-            "key": "Note",
-            "predicate": [
-              "action:balance"
-            ],
-            "selector": "acrobatics",
-            "text": "PF2E.SpecificRule.SteadyBalance.Note",
-            "title": "{item|name}"
-          },
-          {
-            "adjustment": {
-              "success": "one-degree-better"
-            },
-            "key": "AdjustDegreeOfSuccess",
-            "predicate": [
-              "action:balance"
-            ],
-            "selector": "acrobatics",
-            "type": "skill"
-          }
-        ],
-        "traits": {
-          "rarity": "common",
-          "value": [
-            "general",
-            "skill"
-          ],
-          "otherTags": []
-        },
-        "slug": "steady-balance",
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": null
-      },
-      "type": "feat",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "V3eQ3rnpjaKdaJvE",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_id": "1S6BoYQXj14jSuiW",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!YFjGddgClv932YKm.1S6BoYQXj14jSuiW"
-    },
-    {
-      "folder": "xyoakz4rPK2YBlZP",
-      "name": "Aim",
-      "type": "action",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p><strong>Requirements</strong> You're wielding a ranged weapon that doesn't have the area trait.</p><hr /><p>You take careful aim at a single creature that you're aware of, designating it as your mark. Until the end of your turn, your ranged Strikes against your mark using the required ranged weapon deal an additional 1d4 precision damage and reduce the circumstance bonus to AC your mark gains from cover by 1. These benefits only apply if your mark is within your weapon's first range increment. You can only have one mark at a time.</p><p>As your operative level increases, so does your ability to Aim. Increase the number of dice for the precision damage by one at 5th, 11th, and 17th levels. At 11th level, you reduce the circumstance bonus to AC your mark gains from cover by 2 rather than 1. At 17th level, you reduce the circumstance bonus to AC your mark gains from cover by 4 rather than 2.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "ItemAlteration",
-            "mode": "add",
-            "property": "other-tags",
-            "itemType": "weapon",
-            "value": "aim",
-            "predicate": [
-              "item:equipped",
-              "item:ranged",
-              {
-                "not": "item:trait:area"
-              }
-            ]
-          },
-          {
-            "key": "ActiveEffectLike",
-            "path": "flags.sf2e.operative.aim.diceNumber",
-            "value": "ternary(gte(@actor.level,17),4,ternary(gte(@actor.level,11),3,ternary(gte(@actor.level,5),2,1)))",
-            "mode": "override"
-          },
-          {
-            "key": "ActiveEffectLike",
-            "mode": "override",
-            "path": "flags.sf2e.operative.aim.dieSize",
-            "value": 4
-          },
-          {
-            "key": "ActiveEffectLike",
-            "path": "flags.sf2e.operative.aim.coverReduction",
-            "value": "ternary(gte(@actor.level,17),4,ternary(gte(@actor.level,11),2,1))",
-            "mode": "override"
-          },
-          {
-            "key": "ActiveEffectLike",
-            "path": "flags.sf2e.operative.aim.rangeIncrement",
-            "value": 1,
-            "mode": "override"
-          }
-        ],
-        "slug": "aim",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "concentrate",
-            "operative"
-          ]
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actions": {
-          "value": 1
-        },
-        "category": "offensive",
-        "deathNote": false,
-        "selfEffect": {
-          "uuid": "Compendium.sf2e-anachronism.feat-effects.Item.7o4KWymf4Yy2n2Qx",
-          "name": "Effect: Aim"
-        }
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "sort": 100000,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "xihpXrJrLWpxE65I",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "BgF3JGroKxoC0pHL",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!YFjGddgClv932YKm.BgF3JGroKxoC0pHL"
-    },
-    {
       "type": "feat",
       "name": "Mobile Aim",
       "folder": "MLFhgtsXv5ujEuy5",
@@ -2806,153 +2313,6 @@
       "_key": "!actors.items!YFjGddgClv932YKm.7hjzwFQX1RuWxFCD"
     },
     {
-      "folder": "WBjjjwVoDYQAYYe0",
-      "name": "Focused",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You're highly focused on your target and able to discern their moves. When you roll a success on a Reflex save against your mark, you get a critical success instead.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "AdjustDegreeOfSuccess",
-            "adjustment": {
-              "success": "to-critical-success"
-            },
-            "predicate": [
-              "origin:mark:aim"
-            ],
-            "selector": "reflex"
-          }
-        ],
-        "slug": "focused",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "operative"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 3
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "dhJTB7JCoKQBQpQI"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-target.webp",
-      "sort": 1000000,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "mLkx3hU6fomIKqZ2",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!YFjGddgClv932YKm.mLkx3hU6fomIKqZ2"
-    },
-    {
-      "folder": "WBjjjwVoDYQAYYe0",
-      "name": "Specialized Skill Set",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>At 3rd level, 7th level, and 15th level, you gain a skill feat. This feat must be for the trained skill from your operative's specialization.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [],
-        "slug": "specialized-skill-set",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "operative"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 3
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "dhJTB7JCoKQBQpQI"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-laser-tool.webp",
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "sort": 800000,
-      "_id": "rGPVkJzBNwegWhfy",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!YFjGddgClv932YKm.rGPVkJzBNwegWhfy"
-    },
-    {
       "type": "feat",
       "name": "Kill Steal",
       "folder": "dUge9P1UVgqBOrXl",
@@ -3369,6 +2729,683 @@
         "default": 0
       },
       "_key": "!actors.items!YFjGddgClv932YKm.k49Jq5jbsGeHqCB2"
+    },
+    {
+      "folder": "WBjjjwVoDYQAYYe0",
+      "name": "Operative's Specialization",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>As an operative, you have a particular set of skills based on your tactical style. These different specializations help define your character and the approach you take to most situations. Choose an operative's specialization. This specialization grants you training in one skill, a skill feat for that skill, and an exploit. At 9th level, you gain the enhanced exploit granted by your specialization. The specializations presented in this book are as follows.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.1bgDbGzALewzo7cy]{Ghost}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.u4hB3FGFJwGtjrZB]{Infiltrator}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.HSKJ1VkPdlMkcqzc]{Skirmisher}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.OCWsQQ95P7ecp7Rn]{Sniper}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.EpxKCi6G0KnWQhHP]{Striker}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:operative-specialization"
+              ]
+            },
+            "flag": "specialization",
+            "key": "ChoiceSet",
+            "prompt": "SF2E.SpecificRule.Operative.Specialization.Prompt",
+            "selection": "Compendium.sf2e-anachronism.class-features.Item.HSKJ1VkPdlMkcqzc"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.specialization}",
+            "flag": "skirmisher"
+          }
+        ],
+        "slug": "operatives-specialization",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "operative"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "dhJTB7JCoKQBQpQI"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-future-circle-insignia.webp",
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "skirmisher": {
+              "id": "t7EDYs7nkmtFgBF5",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.oUyCwa9Usbv0RXpA",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "i9gj3EIQo6TKiG9W",
+      "_key": "!actors.items!YFjGddgClv932YKm.i9gj3EIQo6TKiG9W"
+    },
+    {
+      "folder": "WBjjjwVoDYQAYYe0",
+      "name": "Sharpshooter",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You can spot a target's weak points, letting you deal additional precision damage with most types of ranged weapons. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]{Aim} action.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC",
+            "flag": "aim"
+          }
+        ],
+        "slug": "sharpshooter",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "operative"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "dhJTB7JCoKQBQpQI"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/rifle-scoped.webp",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "aim": {
+              "id": "gaXa39sBJhSIkyYD",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.YWgkncF2cFzvqXKy",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "DM1W9uNG87W6HWDG",
+      "_key": "!actors.items!YFjGddgClv932YKm.DM1W9uNG87W6HWDG"
+    },
+    {
+      "folder": "9feZwdAlvdlYJ3gO",
+      "name": "Skirmisher",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You specialize in close-quarters missions that require you to operate in crowded or tight spaces, such as inside buildings or vehicles, down narrow alleys, or in busy downtown streets. Whether you're a mugger, bodyguard, assassin, or urban mercenary, you favor pistols and can use them efficiently in tight spaces. You're trained in Acrobatics. You gain a skill feat for Acrobatics.</p><p><strong>Exploit:</strong> You're trained to fight in close combat using pistols. Your ranged Strikes with one-handed ranged weapons don't trigger reactions that are triggered by a ranged attack.</p><p><strong>Enhanced Exploit:</strong> Your point-blank shots are particularly deadly. When you make a successful Strike against an adjacent enemy with a one-handed ranged weapon, you calculate the damage as if the lowest-rolled weapon damage die for the attack had the maximum result instead. At 17th level, the two lowest-rolled damage dice increase to the maximum result.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.acrobatics.rank",
+            "value": 1
+          },
+          {
+            "adjustName": false,
+            "key": "ChoiceSet",
+            "choices": {
+              "filter": [
+                "item:category:skill",
+                "item:level:1"
+              ],
+              "itemType": "feat"
+            },
+            "flag": "feat",
+            "prompt": "PF2E.SpecificRule.Prompt.SkillFeat",
+            "selection": "Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.feat}",
+            "flag": "steadyBalance"
+          }
+        ],
+        "slug": "skirmisher",
+        "traits": {
+          "otherTags": [
+            "operative-specialization"
+          ],
+          "value": [
+            "operative"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/green-mech-blade.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "i9gj3EIQo6TKiG9W",
+            "onDelete": "cascade"
+          },
+          "itemGrants": {
+            "steadyBalance": {
+              "id": "LQPCciF0zMqOk8nu",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.HSKJ1VkPdlMkcqzc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "t7EDYs7nkmtFgBF5",
+      "_key": "!actors.items!YFjGddgClv932YKm.t7EDYs7nkmtFgBF5"
+    },
+    {
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Steady Balance",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You can keep your balance easily, even in adverse conditions. Whenever you roll a success using the @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} action, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while attempting to Balance on narrow surfaces and uneven ground.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Acrobatics"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "predicate": [
+              "action:balance"
+            ],
+            "selector": "acrobatics",
+            "text": "PF2E.SpecificRule.SteadyBalance.Note",
+            "title": "{item|name}"
+          },
+          {
+            "adjustment": {
+              "success": "one-degree-better"
+            },
+            "key": "AdjustDegreeOfSuccess",
+            "predicate": [
+              "action:balance"
+            ],
+            "selector": "acrobatics",
+            "type": "skill"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "steady-balance",
+        "_migration": {
+          "version": 0.953,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "t7EDYs7nkmtFgBF5",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "LQPCciF0zMqOk8nu",
+      "_key": "!actors.items!YFjGddgClv932YKm.LQPCciF0zMqOk8nu"
+    },
+    {
+      "folder": "xyoakz4rPK2YBlZP",
+      "name": "Aim",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p><strong>Requirements</strong> You're wielding a ranged weapon that doesn't have the area trait.</p><hr /><p>You take careful aim at a single creature that you're aware of, designating it as your mark. Until the end of your turn, your ranged Strikes against your mark using the required ranged weapon deal an additional 1d4 precision damage and reduce the circumstance bonus to AC your mark gains from cover by 1. These benefits only apply if your mark is within your weapon's first range increment. You can only have one mark at a time.</p><p>As your operative level increases, so does your ability to Aim. Increase the number of dice for the precision damage by one at 5th, 11th, and 17th levels. At 11th level, you reduce the circumstance bonus to AC your mark gains from cover by 2 rather than 1. At 17th level, you reduce the circumstance bonus to AC your mark gains from cover by 4 rather than 2.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "ItemAlteration",
+            "mode": "add",
+            "property": "other-tags",
+            "itemType": "weapon",
+            "value": "aim",
+            "predicate": [
+              "item:equipped",
+              "item:ranged",
+              {
+                "not": "item:trait:area"
+              }
+            ]
+          },
+          {
+            "key": "ActiveEffectLike",
+            "path": "flags.sf2e.operative.aim.diceNumber",
+            "value": "ternary(gte(@actor.level,17),4,ternary(gte(@actor.level,11),3,ternary(gte(@actor.level,5),2,1)))",
+            "mode": "override"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.sf2e.operative.aim.dieSize",
+            "value": 4
+          },
+          {
+            "key": "ActiveEffectLike",
+            "path": "flags.sf2e.operative.aim.coverReduction",
+            "value": "ternary(gte(@actor.level,17),4,ternary(gte(@actor.level,11),2,1))",
+            "mode": "override"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "path": "flags.sf2e.operative.aim.rangeIncrement",
+            "value": 1,
+            "mode": "override"
+          }
+        ],
+        "slug": "aim",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "operative"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false,
+        "selfEffect": {
+          "uuid": "Compendium.sf2e-anachronism.feat-effects.Item.7o4KWymf4Yy2n2Qx",
+          "name": "Effect: Aim"
+        }
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "DM1W9uNG87W6HWDG",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "gaXa39sBJhSIkyYD",
+      "_key": "!actors.items!YFjGddgClv932YKm.gaXa39sBJhSIkyYD"
+    },
+    {
+      "folder": "WBjjjwVoDYQAYYe0",
+      "name": "Focused",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You're highly focused on your target and able to discern their moves. When you roll a success on a Reflex save against your mark, you get a critical success instead.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "AdjustDegreeOfSuccess",
+            "adjustment": {
+              "success": "to-critical-success"
+            },
+            "predicate": [
+              "origin:mark:aim"
+            ],
+            "selector": "reflex"
+          }
+        ],
+        "slug": "focused",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "operative"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "dhJTB7JCoKQBQpQI"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-target.webp",
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.fkRGEE9raPLD8NpN",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "h0wmFdSGnMYvaBsp",
+      "_key": "!actors.items!YFjGddgClv932YKm.h0wmFdSGnMYvaBsp"
+    },
+    {
+      "folder": "WBjjjwVoDYQAYYe0",
+      "name": "Specialized Skill Set",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>At 3rd level, 7th level, and 15th level, you gain a skill feat. This feat must be for the trained skill from your operative's specialization.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": "specialized-skill-set",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "operative"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "dhJTB7JCoKQBQpQI"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-laser-tool.webp",
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.N6fZPvGFrS8LZgnE",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "sort": 800000,
+      "_id": "96kvIWfdB1vHTQcS",
+      "_key": "!actors.items!YFjGddgClv932YKm.96kvIWfdB1vHTQcS"
     }
   ],
   "flags": {},
@@ -3376,9 +3413,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "ownership": {
     "default": 1,

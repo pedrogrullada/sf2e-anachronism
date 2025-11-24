@@ -1029,748 +1029,6 @@
       "_key": "!actors.items!uELyvhal1XTPo5tY.W8qJndwIpblngCyk"
     },
     {
-      "folder": "e3SG2AbD8sMYz1V5",
-      "name": "Anchor",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>Whatever paradox altered the course of your existence, something helps keep you anchored to reality. This might be a physical object you carry, memories of your home, or loved ones. At 1st level, select an anchor.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.ENxkQJEIkz35yuMT]{Core Memories}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.idjill6Zh7b3SLqE]{Focal Point}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.Z1sThY5XgXiXQBIy]{Tangible Object}</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "adjustName": false,
-            "choices": {
-              "filter": [
-                "item:tag:witchwarper-anchor"
-              ]
-            },
-            "flag": "anchor",
-            "key": "ChoiceSet",
-            "prompt": "SF2E.SpecificRule.Witchwarper.Anchor.Prompt",
-            "selection": "Compendium.sf2e-anachronism.class-features.Item.Z1sThY5XgXiXQBIy"
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "{item|flags.pf2e.rulesSelections.anchor}",
-            "flag": "tangibleObject"
-          }
-        ],
-        "slug": "anchor",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "W8qJndwIpblngCyk"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-rune-ancient.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "tangibleObject": {
-              "id": "i2sFp33OWjvmuZ1D",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "3JgleNxvaAmBjX4B",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.3JgleNxvaAmBjX4B"
-    },
-    {
-      "folder": "e3SG2AbD8sMYz1V5",
-      "name": "Paradox",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>Your existence is contrary to the status quo of the universe, causing quantum ripples that empower your spellcasting talent and open doorways to other worlds. Perhaps you're from an alternate reality or a different timeline, or perhaps you experienced an unnatural phenomenon that altered your path, discovered a time-glitching alien device, or wrote a treatise on quantum magical theory. Whatever your story, you've become a living paradox.</p><p>At 1st level, choose your paradox. Your chosen paradox determines the tradition of your spells, additional trained skills, additional spells you learn, and the effects of your quantum field. You also gain Focus Points and special focus spells called warp spells based on your paradox.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.42tQJXhySw9QKcn6]{Analyst}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.hFIB6wlYGK93zl4g]{Anomaly}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.1E12XmyqzIK1jXrY]{Gap Influenced}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.cxBVbSITniNRwfMi]{Precog}</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "adjustName": false,
-            "choices": {
-              "filter": [
-                "item:tag:witchwarper-paradox"
-              ]
-            },
-            "flag": "paradox",
-            "key": "ChoiceSet",
-            "prompt": "SF2E.SpecificRule.Witchwarper.Paradox.Prompt",
-            "selection": "Compendium.sf2e-anachronism.class-features.Item.hFIB6wlYGK93zl4g"
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "{item|flags.pf2e.rulesSelections.paradox}",
-            "flag": "anomaly"
-          }
-        ],
-        "slug": "paradox",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "W8qJndwIpblngCyk"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-energy-convergence.webp",
-      "sort": 100,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "anomaly": {
-              "id": "QwCCk5appm8GcqBq",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "jrj59K38Wzg7OXll",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.jrj59K38Wzg7OXll"
-    },
-    {
-      "folder": "e3SG2AbD8sMYz1V5",
-      "name": "Quantum Field",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You can draw on paradoxical forces to create a reality-warping quantum field. It might manifest as a haze in the air that shows shimmers of alternate realities, appear as walls of glowing magical equations, or any other display you choose. The effects of your quantum field are determined by your paradox. You can further enhance and manipulate your quantum field through your witchwarper feat selections and by casting warp spells. You can activate or extend the duration of your quantum field by using reality-warping magic.</p><p>You have the @UUID[Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0]{Warp Reality} action, which lets you activate your quantum field. This action gains the arcane or occult trait based on the tradition of your selected paradox. You also have @UUID[Compendium.sf2e-anachronism.actions.Item.30Nw5q4vWKCQIBIZ]{Quantum Pulse}, which lets you establish your quantum field quickly at the start of combat.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0",
-            "alterations": [
-              {
-                "mode": "add",
-                "property": "traits",
-                "value": "{actor|flags.sf2e.witchwarper.tradition}"
-              }
-            ],
-            "flag": "warpReality"
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.sf2e-anachronism.actions.Item.30Nw5q4vWKCQIBIZ",
-            "flag": "quantumPulse"
-          }
-        ],
-        "slug": "quantum-field",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "W8qJndwIpblngCyk"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-galaxy.webp",
-      "sort": 200,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "warpReality": {
-              "id": "GbK4ADZ1I4W06tNx",
-              "onDelete": "detach"
-            },
-            "quantumPulse": {
-              "id": "lhIze6hkL355ODPx",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "YpYIKyIPlRsrP0z9",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.YpYIKyIPlRsrP0z9"
-    },
-    {
-      "folder": "n5CdR3msz8xgyzXJ",
-      "name": "Tangible Object",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>A small object, usually something you wear or can hold with one appendage, gives you comfort. It might be a trinket or article of clothing with sentimental value, a gadget to fidget with, or perhaps it just has a texture you find pleasing.</p><p><strong>Anchor Benefit</strong> The presence or weight of your chosen object helps ground you in this reality. You gain a +1 circumstance bonus to both Perception checks and Will saves against illusions and holograms.</p><p><strong>Anchoring Effect</strong> Reduce your @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition by 1. If you aren't frightened, you instead gain a +1 circumstance bonus to Will saves against fear effects and a +2 circumstance bonus to your Will DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} you until the start of your next turn. You can only benefit from this once per round.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.nvB1852vEPVqjxhR]{Effect: Tangible Object (Anchoring Effect)}</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "FlatModifier",
-            "selector": [
-              "perception",
-              "will"
-            ],
-            "value": 1,
-            "type": "circumstance",
-            "predicate": [
-              {
-                "or": [
-                  "origin:trait:hologram",
-                  "origin:trait:illusion"
-                ]
-              }
-            ]
-          }
-        ],
-        "slug": "tangible-object",
-        "traits": {
-          "otherTags": [
-            "witchwarper-anchor"
-          ],
-          "value": [
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": null
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-lock.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "3JgleNxvaAmBjX4B",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "i2sFp33OWjvmuZ1D",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.i2sFp33OWjvmuZ1D"
-    },
-    {
-      "folder": "33oNUOiQTTbFhtBG",
-      "name": "Anomaly",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>Your existence is an anomaly that defies the normal parameters of your current reality. You might have encountered something that disrupted your core existence, or you crossed the veil from an alternate reality or twisted timeline.</p><p><strong>Tradition</strong> arcane</p><p><strong>Paradox Skill</strong> Deception</p><p><strong>Paradox Spells</strong> cantrip: @UUID[Compendium.sf2e-anachronism.spells.Item.jgN33YSYXB8iIHTw]{Stumble}; 1st: @UUID[Compendium.sf2e-anachronism.spells.Item.7P4eBdqWcgQJAFCa]{Shifting Surge}; 2nd: @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}; 3rd: @UUID[Compendium.sf2e-anachronism.spells.Item.qkehzRdn7JeGrR6E]{Void Whispers}; 4th: @UUID[Compendium.sf2e-anachronism.spells.Item.jyrxfWeeCsrkhNit]{Eldritch Wrath}; 5th: @UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}; 6th: @UUID[Compendium.sf2e-anachronism.spells.Item.a02hsymtiVRQvh3i]{Slice Reality}; 7th: @UUID[Compendium.sf2e-anachronism.spells.Item.zdzeVZlKHkMAt2Rf]{Death Sentence}; 8th: @UUID[Compendium.sf2e-anachronism.spells.Item.sTpdXXaaKhoGOIxh]{Void Vessel}; 9th: @UUID[Compendium.sf2e-anachronism.spells.Item.J3zMwmhIVgI2yzxm]{Call Cosmos}</p><p><strong>Warp Spells</strong> initial: @UUID[Compendium.sf2e-anachronism.spells.Item.TN2pHF9l3k4ZJ7di]{Warp Terrain}; advanced: @UUID[Compendium.sf2e-anachronism.spells.Item.9w90nlUdV5HBRWFm]{Warp World}; greater: @UUID[Compendium.sf2e-anachronism.spells.Item.XoYUZP9OYdDMz4I0]{Parallel Forms}</p><p><strong>Quantum Field</strong> Movements blur as images of alternate iterations of your enemies flicker around them. When an enemy in your quantum field attempts an action with the concentrate trait, the action is disrupted unless they succeed at a @Check[flat|dc:5|showDC:all]. The first time a creature fails this check, it becomes temporarily immune for 24 hours.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "ActiveEffectLike",
-            "mode": "upgrade",
-            "path": "system.skills.deception.rank",
-            "value": 1
-          },
-          {
-            "key": "ActiveEffectLike",
-            "mode": "override",
-            "path": "flags.sf2e.witchwarper.tradition",
-            "value": "arcane"
-          }
-        ],
-        "slug": "anomaly",
-        "traits": {
-          "otherTags": [
-            "witchwarper-paradox"
-          ],
-          "value": [
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": null
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-emblem-3.webp",
-      "sort": 300000,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "jrj59K38Wzg7OXll",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "QwCCk5appm8GcqBq",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.QwCCk5appm8GcqBq"
-    },
-    {
-      "folder": "mdKxIDRDQ6lmPGBA",
-      "name": "Warp Reality",
-      "type": "action",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p><strong>Requirements</strong> Your quantum field isn't active.</p><hr /><p>Your quantum field activates and lasts as long as you Sustain it (up to 10 minutes) or until the end of your next turn. Your quantum field is a @Template[type:burst|distance:20] centered on a point you choose within 100 feet. While your quantum field is active, you can use actions that have the anchoring trait. Your quantum field's other specific effects are determined by your paradox. Choose whether any given creature in the area is affected by your quantum field when you Warp Reality, each time you Sustain it, and when a creature enters your quantum field. Each time you Sustain a quantum field with the Sustain action (instead of an anchoring action), you can move it to a new position within 100 feet.</p><p>Your quantum field automatically deactivates if you're knocked out, if you Dismiss it, or if you move more than 100 feet away from it.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [],
-        "slug": "warp-reality",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "arcane",
-            "concentrate",
-            "witchwarper"
-          ]
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actions": {
-          "value": 1
-        },
-        "category": "offensive",
-        "deathNote": false
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "YpYIKyIPlRsrP0z9",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "GbK4ADZ1I4W06tNx",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.GbK4ADZ1I4W06tNx"
-    },
-    {
-      "folder": "mdKxIDRDQ6lmPGBA",
-      "name": "Quantum Pulse",
-      "type": "action",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You're always ready to let loose with your paradoxical abilities, and when imperiled, you instinctively release a pulse of quantum energy. As combat begins, you @UUID[Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0]{Warp Reality}.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "Note",
-            "title": "{item|name} <span class=\"action-glyph\">F</span>",
-            "selector": "initiative",
-            "text": "{item|description}"
-          }
-        ],
-        "slug": "quantum-pulse",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "witchwarper"
-          ]
-        },
-        "actionType": {
-          "value": "free"
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "offensive",
-        "deathNote": false
-      },
-      "img": "systems/pf2e/icons/actions/FreeAction.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "YpYIKyIPlRsrP0z9",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "lhIze6hkL355ODPx",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.lhIze6hkL355ODPx"
-    },
-    {
-      "folder": "e3SG2AbD8sMYz1V5",
-      "name": "Witchwarper Spellcasting",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>Your paradox grants you magical power. You can cast spells using the Cast a Spell activity. As a witchwarper, when you cast spells, you might describe your revelations about other realities aloud, accompanied by elegant gestures while arcane equations or occult symbols blaze around you.</p><p>Each day, you can cast up to three 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p><p>As you increase in level as a witchwarper, your number of spells per day increases, as does the highest rank of spells you can cast.</p><p>Some of your spells require you to attempt a spell attack to see how effective they are or have your enemies roll against your spell DC (typically by attempting a saving throw). Your spell attack modifiers and spell DCs use your Charisma or Intelligence modifier, depending on which you chose for your key attribute.</p><h3>Heightening Spells</h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast in order to heighten it to that rank. Many spells have specific improvements when they're heightened to certain ranks.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of witchwarper spell slot you have. For example, as a 1st-level witchwarper, your cantrips are 1st-rank spells, and as a 5th-level witchwarper, your cantrips are 3rd-rank spells.</p><h3>Warp Spells</h3><p>You can create powerful magical phenomena known as warp spells. Warp spells are a type of focus spell. It costs 1 Focus Point to cast a warp spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to contemplate infinite worlds or conduct quantum magical research.</p><p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points.</p><p>Warp spells have the anchoring trait, unlike other focus spells. This trait means you can only use warp spells while your quantum field is active, and you automatically Sustain your quantum field when you cast warp spells.</p><p>You learn warp spells based on your paradox.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [],
-        "slug": "witchwarper-spellcasting",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "W8qJndwIpblngCyk"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-power-stone.webp",
-      "sort": 300,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "ymcoAA6fvhkICEt3",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.ymcoAA6fvhkICEt3"
-    },
-    {
-      "folder": "fCUjDoIslLyWWTPv",
-      "name": "Spell Repertoire",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p><strong>Mystic</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice as well as an additional spell and cantrip from your chosen connection. You choose these from the common spells from the tradition corresponding to your chosen connection or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot, you add a spell of the same rank to your spell repertoire. When you gain access to a new rank of spells, your first new spell is always the spell granted by your chosen connection, but you can choose the other spells. At 2nd level, you select another 1st-rank spell; at 3rd level, you gain a new spell from your chosen connection and two other 2nd-rank spells, and so on. When you add spells, you might select a higher-rank version of a spell you already know so that you can cast a heightened version of that spell.</p><p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p><h3>Swapping Spells in Your Repertoire</h3><p>As you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out epiphany spells or connection spells. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Witchwarper</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice as well as an additional spell and cantrip from your paradox. You choose these from the common spells from the tradition corresponding to your paradox. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot, you add a spell to your spell repertoire of the same rank. At 2nd level, select another 1st-rank spell; at 3rd level, you gain a new spell from your paradox and two other 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.</p><p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p><h3>Swapping Spells in Your Repertoire</h3><p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out spells gained from your paradox. You can also swap out spells by retraining during downtime.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [],
-        "slug": "spell-repertoire",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "mystic",
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "W8qJndwIpblngCyk"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-circuit-board-2.webp",
-      "sort": 400,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "ACBIZF4Y16wsekGK",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.ACBIZF4Y16wsekGK"
-    },
-    {
       "folder": "V89RPpe7fyCFC6NS",
       "name": "Battleglove",
       "type": "weapon",
@@ -4100,249 +3358,6 @@
       "_key": "!actors.items!uELyvhal1XTPo5tY.r3Hm92dxT7JYIp8s"
     },
     {
-      "folder": "e3SG2AbD8sMYz1V5",
-      "name": "Isolated Spell Matrix",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You can cast spells directly into your quantum field. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.E7HvICcH9CRAVzGc]{Isolated Spell Matrix} action.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.sf2e-anachronism.actions.Item.E7HvICcH9CRAVzGc",
-            "flag": "isolatedSpellMatrix"
-          }
-        ],
-        "slug": "isolated-spell-matrix",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 3
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "W8qJndwIpblngCyk"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-event-horizon-transcendent.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "isolatedSpellMatrix": {
-              "id": "SwBG6gGhadQJyaVP",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "e5G9V00EzaaRdYOQ",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.e5G9V00EzaaRdYOQ"
-    },
-    {
-      "folder": "mdKxIDRDQ6lmPGBA",
-      "name": "Isolated Spell Matrix",
-      "type": "action",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>If the next action you use is to Cast a Spell that has a range, increase the spell's range to 100 feet. That spell only affects targets inside your quantum field, and the area of the spell doesn't extend beyond your quantum field.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "RollOption",
-            "option": "spellshape",
-            "suboptions": [
-              {
-                "label": "{item|name}",
-                "value": "isolated-spell-matrix"
-              }
-            ],
-            "label": "PF2E.TraitSpellshape",
-            "toggleable": true,
-            "placement": "spellcasting",
-            "mergeable": true
-          },
-          {
-            "key": "ItemAlteration",
-            "mode": "add",
-            "property": "description",
-            "value": [
-              {
-                "text": "{item|description}"
-              }
-            ],
-            "itemType": "spell",
-            "predicate": [
-              "spellshape:isolated-spell-matrix"
-            ]
-          }
-        ],
-        "slug": "isolated-spell-matrix",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "anchoring",
-            "spellshape"
-          ]
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actions": {
-          "value": 1
-        },
-        "category": "offensive",
-        "deathNote": false
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "e5G9V00EzaaRdYOQ",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "SwBG6gGhadQJyaVP",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.SwBG6gGhadQJyaVP"
-    },
-    {
-      "folder": "fCUjDoIslLyWWTPv",
-      "name": "Signature Spells",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You've learned to cast some of your spells more flexibly, granting you extra control over your spellcasting. For each spell rank you have access to, choose one spell of that rank to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher level than its minimum, you can also cast all its lower-rank versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell rank at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that rank without swapping any spells; this takes as much time as retraining a spell normally does.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [],
-        "slug": "signature-spells",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "mystic",
-            "witchwarper"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 3
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "W8qJndwIpblngCyk"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/red-alien-insignia.webp",
-      "sort": 1600000,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "Evx9aNIswP0qXtLW",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!uELyvhal1XTPo5tY.Evx9aNIswP0qXtLW"
-    },
-    {
       "folder": "jjcF0lfrc3ZIoKv1",
       "name": "Tempweave",
       "type": "armor",
@@ -5228,6 +4243,1063 @@
         "default": 0
       },
       "_key": "!actors.items!uELyvhal1XTPo5tY.NOPyTuGtVCP64XYO"
+    },
+    {
+      "folder": "e3SG2AbD8sMYz1V5",
+      "name": "Anchor",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>Whatever paradox altered the course of your existence, something helps keep you anchored to reality. This might be a physical object you carry, memories of your home, or loved ones. At 1st level, select an anchor.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.ENxkQJEIkz35yuMT]{Core Memories}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.idjill6Zh7b3SLqE]{Focal Point}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.Z1sThY5XgXiXQBIy]{Tangible Object}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:witchwarper-anchor"
+              ]
+            },
+            "flag": "anchor",
+            "key": "ChoiceSet",
+            "prompt": "SF2E.SpecificRule.Witchwarper.Anchor.Prompt",
+            "selection": "Compendium.sf2e-anachronism.class-features.Item.Z1sThY5XgXiXQBIy"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.anchor}",
+            "flag": "tangibleObject"
+          }
+        ],
+        "slug": "anchor",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "W8qJndwIpblngCyk"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-rune-ancient.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "tangibleObject": {
+              "id": "ZVVoYo0lmOFhhMMR",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.aBe79UixtYqZKwtv",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "dO3DfnYWaw2QgomZ",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.dO3DfnYWaw2QgomZ"
+    },
+    {
+      "folder": "e3SG2AbD8sMYz1V5",
+      "name": "Paradox",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>Your existence is contrary to the status quo of the universe, causing quantum ripples that empower your spellcasting talent and open doorways to other worlds. Perhaps you're from an alternate reality or a different timeline, or perhaps you experienced an unnatural phenomenon that altered your path, discovered a time-glitching alien device, or wrote a treatise on quantum magical theory. Whatever your story, you've become a living paradox.</p><p>At 1st level, choose your paradox. Your chosen paradox determines the tradition of your spells, additional trained skills, additional spells you learn, and the effects of your quantum field. You also gain Focus Points and special focus spells called warp spells based on your paradox.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.42tQJXhySw9QKcn6]{Analyst}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.hFIB6wlYGK93zl4g]{Anomaly}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.1E12XmyqzIK1jXrY]{Gap Influenced}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.cxBVbSITniNRwfMi]{Precog}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:witchwarper-paradox"
+              ]
+            },
+            "flag": "paradox",
+            "key": "ChoiceSet",
+            "prompt": "SF2E.SpecificRule.Witchwarper.Paradox.Prompt",
+            "selection": "Compendium.sf2e-anachronism.class-features.Item.hFIB6wlYGK93zl4g"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.paradox}",
+            "flag": "anomaly"
+          }
+        ],
+        "slug": "paradox",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "W8qJndwIpblngCyk"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-energy-convergence.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "anomaly": {
+              "id": "rLazYoxU9JEV0HoB",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.TJ6x3cwFzlZmpglX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "jEv8QBDeoSkR7z5U",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.jEv8QBDeoSkR7z5U"
+    },
+    {
+      "folder": "e3SG2AbD8sMYz1V5",
+      "name": "Quantum Field",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You can draw on paradoxical forces to create a reality-warping quantum field. It might manifest as a haze in the air that shows shimmers of alternate realities, appear as walls of glowing magical equations, or any other display you choose. The effects of your quantum field are determined by your paradox. You can further enhance and manipulate your quantum field through your witchwarper feat selections and by casting warp spells. You can activate or extend the duration of your quantum field by using reality-warping magic.</p><p>You have the @UUID[Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0]{Warp Reality} action, which lets you activate your quantum field. This action gains the arcane or occult trait based on the tradition of your selected paradox. You also have @UUID[Compendium.sf2e-anachronism.actions.Item.30Nw5q4vWKCQIBIZ]{Quantum Pulse}, which lets you establish your quantum field quickly at the start of combat.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0",
+            "alterations": [
+              {
+                "mode": "add",
+                "property": "traits",
+                "value": "{actor|flags.sf2e.witchwarper.tradition}"
+              }
+            ],
+            "flag": "warpReality"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.sf2e-anachronism.actions.Item.30Nw5q4vWKCQIBIZ",
+            "flag": "quantumPulse"
+          }
+        ],
+        "slug": "quantum-field",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "W8qJndwIpblngCyk"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-galaxy.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "warpReality": {
+              "id": "mCkOdb88JeA8WLvZ",
+              "onDelete": "detach"
+            },
+            "quantumPulse": {
+              "id": "7KafpGeDgI0wXF8Z",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.iDZVHCu8Iwl8OCPg",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "zSBekIm23l1Rrd3j",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.zSBekIm23l1Rrd3j"
+    },
+    {
+      "folder": "e3SG2AbD8sMYz1V5",
+      "name": "Isolated Spell Matrix",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You can cast spells directly into your quantum field. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.E7HvICcH9CRAVzGc]{Isolated Spell Matrix} action.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.sf2e-anachronism.actions.Item.E7HvICcH9CRAVzGc",
+            "flag": "isolatedSpellMatrix"
+          }
+        ],
+        "slug": "isolated-spell-matrix",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "W8qJndwIpblngCyk"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-event-horizon-transcendent.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "isolatedSpellMatrix": {
+              "id": "weyKrOcR6Nr4lpNO",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.QslkWkHbHQEvWFCL",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "9Wk20LK7qwMZsBxR",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.9Wk20LK7qwMZsBxR"
+    },
+    {
+      "folder": "n5CdR3msz8xgyzXJ",
+      "name": "Tangible Object",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>A small object, usually something you wear or can hold with one appendage, gives you comfort. It might be a trinket or article of clothing with sentimental value, a gadget to fidget with, or perhaps it just has a texture you find pleasing.</p><p><strong>Anchor Benefit</strong> The presence or weight of your chosen object helps ground you in this reality. You gain a +1 circumstance bonus to both Perception checks and Will saves against illusions and holograms.</p><p><strong>Anchoring Effect</strong> Reduce your @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition by 1. If you aren't frightened, you instead gain a +1 circumstance bonus to Will saves against fear effects and a +2 circumstance bonus to your Will DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} you until the start of your next turn. You can only benefit from this once per round.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.nvB1852vEPVqjxhR]{Effect: Tangible Object (Anchoring Effect)}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": [
+              "perception",
+              "will"
+            ],
+            "value": 1,
+            "type": "circumstance",
+            "predicate": [
+              {
+                "or": [
+                  "origin:trait:hologram",
+                  "origin:trait:illusion"
+                ]
+              }
+            ]
+          }
+        ],
+        "slug": "tangible-object",
+        "traits": {
+          "otherTags": [
+            "witchwarper-anchor"
+          ],
+          "value": [
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-lock.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "dO3DfnYWaw2QgomZ",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.Z1sThY5XgXiXQBIy",
+        "duplicateSource": "Item.ENxkQJEIkz35yuMT",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "ZVVoYo0lmOFhhMMR",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.ZVVoYo0lmOFhhMMR"
+    },
+    {
+      "folder": "33oNUOiQTTbFhtBG",
+      "name": "Anomaly",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>Your existence is an anomaly that defies the normal parameters of your current reality. You might have encountered something that disrupted your core existence, or you crossed the veil from an alternate reality or twisted timeline.</p><p><strong>Tradition</strong> arcane</p><p><strong>Paradox Skill</strong> Deception</p><p><strong>Paradox Spells</strong> cantrip: @UUID[Compendium.sf2e-anachronism.spells.Item.jgN33YSYXB8iIHTw]{Stumble}; 1st: @UUID[Compendium.sf2e-anachronism.spells.Item.7P4eBdqWcgQJAFCa]{Shifting Surge}; 2nd: @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}; 3rd: @UUID[Compendium.sf2e-anachronism.spells.Item.qkehzRdn7JeGrR6E]{Void Whispers}; 4th: @UUID[Compendium.sf2e-anachronism.spells.Item.jyrxfWeeCsrkhNit]{Eldritch Wrath}; 5th: @UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}; 6th: @UUID[Compendium.sf2e-anachronism.spells.Item.a02hsymtiVRQvh3i]{Slice Reality}; 7th: @UUID[Compendium.sf2e-anachronism.spells.Item.zdzeVZlKHkMAt2Rf]{Death Sentence}; 8th: @UUID[Compendium.sf2e-anachronism.spells.Item.sTpdXXaaKhoGOIxh]{Void Vessel}; 9th: @UUID[Compendium.sf2e-anachronism.spells.Item.J3zMwmhIVgI2yzxm]{Call Cosmos}</p><p><strong>Warp Spells</strong> initial: @UUID[Compendium.sf2e-anachronism.spells.Item.TN2pHF9l3k4ZJ7di]{Warp Terrain}; advanced: @UUID[Compendium.sf2e-anachronism.spells.Item.9w90nlUdV5HBRWFm]{Warp World}; greater: @UUID[Compendium.sf2e-anachronism.spells.Item.XoYUZP9OYdDMz4I0]{Parallel Forms}</p><p><strong>Quantum Field</strong> Movements blur as images of alternate iterations of your enemies flicker around them. When an enemy in your quantum field attempts an action with the concentrate trait, the action is disrupted unless they succeed at a @Check[flat|dc:5|showDC:all]. The first time a creature fails this check, it becomes temporarily immune for 24 hours.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.deception.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.sf2e.witchwarper.tradition",
+            "value": "arcane"
+          }
+        ],
+        "slug": "anomaly",
+        "traits": {
+          "otherTags": [
+            "witchwarper-paradox"
+          ],
+          "value": [
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-emblem-3.webp",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "jEv8QBDeoSkR7z5U",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.hFIB6wlYGK93zl4g",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "rLazYoxU9JEV0HoB",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.rLazYoxU9JEV0HoB"
+    },
+    {
+      "folder": "mdKxIDRDQ6lmPGBA",
+      "name": "Warp Reality",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p><strong>Requirements</strong> Your quantum field isn't active.</p><hr /><p>Your quantum field activates and lasts as long as you Sustain it (up to 10 minutes) or until the end of your next turn. Your quantum field is a @Template[type:burst|distance:20] centered on a point you choose within 100 feet. While your quantum field is active, you can use actions that have the anchoring trait. Your quantum field's other specific effects are determined by your paradox. Choose whether any given creature in the area is affected by your quantum field when you Warp Reality, each time you Sustain it, and when a creature enters your quantum field. Each time you Sustain a quantum field with the Sustain action (instead of an anchoring action), you can move it to a new position within 100 feet.</p><p>Your quantum field automatically deactivates if you're knocked out, if you Dismiss it, or if you move more than 100 feet away from it.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": "warp-reality",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "concentrate",
+            "witchwarper"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "zSBekIm23l1Rrd3j",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "mCkOdb88JeA8WLvZ",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.mCkOdb88JeA8WLvZ"
+    },
+    {
+      "folder": "mdKxIDRDQ6lmPGBA",
+      "name": "Quantum Pulse",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You're always ready to let loose with your paradoxical abilities, and when imperiled, you instinctively release a pulse of quantum energy. As combat begins, you @UUID[Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0]{Warp Reality}.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "Note",
+            "title": "{item|name} <span class=\"action-glyph\">F</span>",
+            "selector": "initiative",
+            "text": "{item|description}"
+          }
+        ],
+        "slug": "quantum-pulse",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "witchwarper"
+          ]
+        },
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "zSBekIm23l1Rrd3j",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.30Nw5q4vWKCQIBIZ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "7KafpGeDgI0wXF8Z",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.7KafpGeDgI0wXF8Z"
+    },
+    {
+      "folder": "mdKxIDRDQ6lmPGBA",
+      "name": "Isolated Spell Matrix",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>If the next action you use is to Cast a Spell that has a range, increase the spell's range to 100 feet. That spell only affects targets inside your quantum field, and the area of the spell doesn't extend beyond your quantum field.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "option": "spellshape",
+            "suboptions": [
+              {
+                "label": "{item|name}",
+                "value": "isolated-spell-matrix"
+              }
+            ],
+            "label": "PF2E.TraitSpellshape",
+            "toggleable": true,
+            "placement": "spellcasting",
+            "mergeable": true
+          },
+          {
+            "key": "ItemAlteration",
+            "mode": "add",
+            "property": "description",
+            "value": [
+              {
+                "text": "{item|description}"
+              }
+            ],
+            "itemType": "spell",
+            "predicate": [
+              "spellshape:isolated-spell-matrix"
+            ]
+          }
+        ],
+        "slug": "isolated-spell-matrix",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "anchoring",
+            "spellshape"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "9Wk20LK7qwMZsBxR",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.E7HvICcH9CRAVzGc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "weyKrOcR6Nr4lpNO",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.weyKrOcR6Nr4lpNO"
+    },
+    {
+      "folder": "e3SG2AbD8sMYz1V5",
+      "name": "Witchwarper Spellcasting",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>Your paradox grants you magical power. You can cast spells using the Cast a Spell activity. As a witchwarper, when you cast spells, you might describe your revelations about other realities aloud, accompanied by elegant gestures while arcane equations or occult symbols blaze around you.</p><p>Each day, you can cast up to three 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p><p>As you increase in level as a witchwarper, your number of spells per day increases, as does the highest rank of spells you can cast.</p><p>Some of your spells require you to attempt a spell attack to see how effective they are or have your enemies roll against your spell DC (typically by attempting a saving throw). Your spell attack modifiers and spell DCs use your Charisma or Intelligence modifier, depending on which you chose for your key attribute.</p><h3>Heightening Spells</h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast in order to heighten it to that rank. Many spells have specific improvements when they're heightened to certain ranks.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of witchwarper spell slot you have. For example, as a 1st-level witchwarper, your cantrips are 1st-rank spells, and as a 5th-level witchwarper, your cantrips are 3rd-rank spells.</p><h3>Warp Spells</h3><p>You can create powerful magical phenomena known as warp spells. Warp spells are a type of focus spell. It costs 1 Focus Point to cast a warp spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to contemplate infinite worlds or conduct quantum magical research.</p><p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points.</p><p>Warp spells have the anchoring trait, unlike other focus spells. This trait means you can only use warp spells while your quantum field is active, and you automatically Sustain your quantum field when you cast warp spells.</p><p>You learn warp spells based on your paradox.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": "witchwarper-spellcasting",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "W8qJndwIpblngCyk"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-power-stone.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.h5toU3dCzHeSj50h",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "UwwE7FaVWb4GDRZV",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.UwwE7FaVWb4GDRZV"
+    },
+    {
+      "folder": "fCUjDoIslLyWWTPv",
+      "name": "Spell Repertoire",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p><strong>Mystic</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice as well as an additional spell and cantrip from your chosen connection. You choose these from the common spells from the tradition corresponding to your chosen connection or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot, you add a spell of the same rank to your spell repertoire. When you gain access to a new rank of spells, your first new spell is always the spell granted by your chosen connection, but you can choose the other spells. At 2nd level, you select another 1st-rank spell; at 3rd level, you gain a new spell from your chosen connection and two other 2nd-rank spells, and so on. When you add spells, you might select a higher-rank version of a spell you already know so that you can cast a heightened version of that spell.</p><p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p><h3>Swapping Spells in Your Repertoire</h3><p>As you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out epiphany spells or connection spells. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Witchwarper</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice as well as an additional spell and cantrip from your paradox. You choose these from the common spells from the tradition corresponding to your paradox. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot, you add a spell to your spell repertoire of the same rank. At 2nd level, select another 1st-rank spell; at 3rd level, you gain a new spell from your paradox and two other 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.</p><p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p><h3>Swapping Spells in Your Repertoire</h3><p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out spells gained from your paradox. You can also swap out spells by retraining during downtime.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": "spell-repertoire",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mystic",
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "W8qJndwIpblngCyk"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-circuit-board-2.webp",
+      "sort": 1550000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.qR7l0JtA2TObnY0T",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "HJtnbudvYGOIRogN",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.HJtnbudvYGOIRogN"
+    },
+    {
+      "folder": "fCUjDoIslLyWWTPv",
+      "name": "Signature Spells",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You've learned to cast some of your spells more flexibly, granting you extra control over your spellcasting. For each spell rank you have access to, choose one spell of that rank to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher level than its minimum, you can also cast all its lower-rank versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell rank at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that rank without swapping any spells; this takes as much time as retraining a spell normally does.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": "signature-spells",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "mystic",
+            "witchwarper"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "W8qJndwIpblngCyk"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/red-alien-insignia.webp",
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.ml5oxO1iIxQZYdw4",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "bSpnTrspDlnoUldH",
+      "_key": "!actors.items!uELyvhal1XTPo5tY.bSpnTrspDlnoUldH"
     }
   ],
   "flags": {},
@@ -5235,9 +5307,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "_id": "uELyvhal1XTPo5tY",
   "ownership": {

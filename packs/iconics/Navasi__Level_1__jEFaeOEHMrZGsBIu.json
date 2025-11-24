@@ -916,494 +916,6 @@
       "_key": "!actors.items!jEFaeOEHMrZGsBIu.ZLaTvHKWkfYQ0EZ8"
     },
     {
-      "folder": "mOIMElPxY4JeuDAW",
-      "name": "Envoy Directives",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>Envoys encourage their allies with directives. A directive is an order that benefits allies who follow it. Envoy directives include a way for the envoy to lead by example by spending more actions for increased effects. Directives have the auditory or visual trait depending on how you inspire your allies.</p><p>You begin with one envoy directive. You can learn more directives through the envoy class, envoy class feats, and your leadership style. You can issue one directive a round. Unless otherwise stated, an envoy's directive and the benefits it grants last until the beginning of your next turn.</p><p>You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy]{Get 'Em!} envoy directive.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy",
-            "flag": "getEm"
-          }
-        ],
-        "slug": "envoy-directives",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "envoy"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "ZLaTvHKWkfYQ0EZ8"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/orange-finger-beam.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "getEm": {
-              "id": "VnixALmFLRxy2hGp",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "iPXrdd3vhRUJR4ao",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!jEFaeOEHMrZGsBIu.iPXrdd3vhRUJR4ao"
-    },
-    {
-      "folder": "mOIMElPxY4JeuDAW",
-      "name": "Leadership Style",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>Whether it comes naturally, or you trained for it, you've developed a personal style of leading others. At 1st level, select a leadership style. You become trained in the indicated leadership skill, you gain the indicated leadership perk, and know the associated leadership directive.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.u2dy5FMDv30UH8HC]{From the Front}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.KEoTccJlfKzMk19l]{From the Shadows}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.jaGIV3t7G07F0qda]{Guns Blazing}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.RIUhD5eldHzBsFIe]{In the Spotlight}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.GTmdHGLcuc11Bizi]{Infosphere Director}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.6cFaxZ4aAhuUbnwi]{Through Desperate Times}</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "adjustName": false,
-            "choices": {
-              "filter": [
-                "item:tag:envoy-leadership-style"
-              ]
-            },
-            "flag": "style",
-            "key": "ChoiceSet",
-            "prompt": "SF2E.SpecificRule.Envoy.LeadershipStyle.Prompt",
-            "selection": "Compendium.sf2e-anachronism.class-features.Item.jaGIV3t7G07F0qda"
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "{item|flags.pf2e.rulesSelections.style}",
-            "flag": "gunsBlazing"
-          }
-        ],
-        "slug": "leadership-style",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "envoy"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": "ZLaTvHKWkfYQ0EZ8"
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-alien-face.webp",
-      "sort": 100,
-      "flags": {
-        "pf2e": {
-          "itemGrants": {
-            "gunsBlazing": {
-              "id": "C9p1EL2CWcLyfNnG",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "itIvKxIwYeZJT8kk",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!jEFaeOEHMrZGsBIu.itIvKxIwYeZJT8kk"
-    },
-    {
-      "folder": "0U62F6g8AM76yfbe",
-      "name": "Get 'Em!",
-      "type": "action",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You single out an enemy for you and your allies to focus your attacks on. Select an enemy within 60 feet that you can see. You and your allies gain a +1 status bonus to attacks against that target until the beginning of your next turn.</p><p><strong>Lead by Example</strong> If you used two actions, Strike the target. You gain a status bonus to the damage roll equal to your Charisma modifier. Regardless of whether the Strike hits, you and your allies gain a +1 status bonus to damage on subsequent Strikes made against the enemy until the start of your next turn. Increase the damage by 1 at 5th, 10th, 15th, and 20th levels.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.ey2zSEnprAGgvrij]{Effect: Get 'Em!}</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [],
-        "slug": "get-em",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "directive",
-            "envoy"
-          ]
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actions": {
-          "value": 1
-        },
-        "category": "offensive",
-        "deathNote": false
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "sort": 300000,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "iPXrdd3vhRUJR4ao",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "VnixALmFLRxy2hGp",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!jEFaeOEHMrZGsBIu.VnixALmFLRxy2hGp"
-    },
-    {
-      "folder": "0MBmY0ZAzJKrKcYj",
-      "name": "Guns Blazing",
-      "type": "feat",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>You lead your team by making an impression with firepower. Your bombastic personality has a barrage of gunfire to back it up, and you always shoot first.</p><p><strong>Leadership Skill</strong> Acrobatics</p><p><strong>Leadership Perk</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr]{Incredible Initiative} as a bonus feat.</p><p><strong>Leadership Directive</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.RNilk6Evoi0xNbWX]{Ready Arms!}</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.sf2e-anachronism.actions.Item.RNilk6Evoi0xNbWX",
-            "flag": "readyArms"
-          },
-          {
-            "key": "ActiveEffectLike",
-            "mode": "upgrade",
-            "path": "system.skills.acrobatics.rank",
-            "value": 1
-          },
-          {
-            "key": "GrantItem",
-            "uuid": "Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr",
-            "flag": "incredibleInitiative"
-          }
-        ],
-        "slug": "guns-blazing",
-        "traits": {
-          "otherTags": [
-            "envoy-leadership-style"
-          ],
-          "value": [
-            "envoy"
-          ],
-          "rarity": "common"
-        },
-        "level": {
-          "value": 1
-        },
-        "category": "classfeature",
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": null
-      },
-      "img": "modules/sf2e-anachronism/art/icons/abilities/space-machine-gun.webp",
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "itIvKxIwYeZJT8kk",
-            "onDelete": "cascade"
-          },
-          "itemGrants": {
-            "readyArms": {
-              "id": "tKa4cQeW0TCAFp8k",
-              "onDelete": "detach"
-            },
-            "incredibleInitiative": {
-              "id": "o7pYwYlxbv6PrvW5",
-              "onDelete": "detach"
-            }
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "C9p1EL2CWcLyfNnG",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!jEFaeOEHMrZGsBIu.C9p1EL2CWcLyfNnG"
-    },
-    {
-      "folder": "0U62F6g8AM76yfbe",
-      "name": "Ready Arms!",
-      "type": "action",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "description": {
-          "value": "<p>With quick commands, you get your allies to ready their equipment. You and all allies within 30 feet can Interact to draw, Switch Hands, or swap weapons as a reaction.</p><p><strong>Lead by Example</strong> If you used two actions, you can Strike, Area Fire, or Auto-Fire with a weapon you drew or swapped to (including by changing active set of hands). If your Strike hits or if a target failed its save against your Area Fire or Auto-Fire, one ally can make a Strike against the same target as a reaction.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "Starfinder Player Core",
-          "authors": "",
-          "license": "ORC",
-          "remaster": true
-        },
-        "rules": [],
-        "slug": "ready-arms",
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "directive",
-            "envoy"
-          ]
-        },
-        "actionType": {
-          "value": "action"
-        },
-        "actions": {
-          "value": 1
-        },
-        "category": "offensive",
-        "deathNote": false
-      },
-      "img": "systems/pf2e/icons/actions/OneAction.webp",
-      "sort": 162500,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "C9p1EL2CWcLyfNnG",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "_id": "tKa4cQeW0TCAFp8k",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!jEFaeOEHMrZGsBIu.tKa4cQeW0TCAFp8k"
-    },
-    {
-      "folder": "waujsnHrfCsPk0zO",
-      "img": "icons/sundries/books/book-red-exclamation.webp",
-      "name": "Incredible Initiative",
-      "system": {
-        "actionType": {
-          "value": "passive"
-        },
-        "actions": {
-          "value": null
-        },
-        "category": "general",
-        "description": {
-          "value": "<p>You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.</p>",
-          "gm": ""
-        },
-        "level": {
-          "value": 1
-        },
-        "prerequisites": {
-          "value": []
-        },
-        "publication": {
-          "license": "ORC",
-          "remaster": true,
-          "title": "Pathfinder Player Core",
-          "authors": ""
-        },
-        "rules": [
-          {
-            "key": "FlatModifier",
-            "selector": "initiative",
-            "type": "circumstance",
-            "value": 2
-          }
-        ],
-        "traits": {
-          "rarity": "common",
-          "value": [
-            "general"
-          ],
-          "otherTags": []
-        },
-        "slug": "incredible-initiative",
-        "_migration": {
-          "version": 0.94,
-          "previous": null
-        },
-        "onlyLevel1": false,
-        "maxTakable": 1,
-        "subfeatures": {
-          "proficiencies": {},
-          "senses": {},
-          "suppressedFeatures": []
-        },
-        "location": null
-      },
-      "type": "feat",
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.346",
-        "systemId": "pf2e",
-        "systemVersion": "7.2.3"
-      },
-      "effects": [],
-      "sort": 0,
-      "flags": {
-        "pf2e": {
-          "grantedBy": {
-            "id": "C9p1EL2CWcLyfNnG",
-            "onDelete": "cascade"
-          }
-        }
-      },
-      "_id": "o7pYwYlxbv6PrvW5",
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!jEFaeOEHMrZGsBIu.o7pYwYlxbv6PrvW5"
-    },
-    {
       "folder": "jjcF0lfrc3ZIoKv1",
       "name": "Second Skin",
       "type": "armor",
@@ -2864,6 +2376,525 @@
         "default": 0
       },
       "_key": "!actors.items!jEFaeOEHMrZGsBIu.nqDtjWdLtRTSLICU"
+    },
+    {
+      "folder": "mOIMElPxY4JeuDAW",
+      "name": "Envoy Directives",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>Envoys encourage their allies with directives. A directive is an order that benefits allies who follow it. Envoy directives include a way for the envoy to lead by example by spending more actions for increased effects. Directives have the auditory or visual trait depending on how you inspire your allies.</p><p>You begin with one envoy directive. You can learn more directives through the envoy class, envoy class feats, and your leadership style. You can issue one directive a round. Unless otherwise stated, an envoy's directive and the benefits it grants last until the beginning of your next turn.</p><p>You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy]{Get 'Em!} envoy directive.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy",
+            "flag": "getEm"
+          }
+        ],
+        "slug": "envoy-directives",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "envoy"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ZLaTvHKWkfYQ0EZ8"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/orange-finger-beam.webp",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "getEm": {
+              "id": "fHP30ADctrM3v0Wt",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.f9dNcZi9kzbaGl8M",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "7Cs80jgSUYbTcvEl",
+      "_key": "!actors.items!jEFaeOEHMrZGsBIu.7Cs80jgSUYbTcvEl"
+    },
+    {
+      "folder": "mOIMElPxY4JeuDAW",
+      "name": "Leadership Style",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>Whether it comes naturally, or you trained for it, you've developed a personal style of leading others. At 1st level, select a leadership style. You become trained in the indicated leadership skill, you gain the indicated leadership perk, and know the associated leadership directive.</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.u2dy5FMDv30UH8HC]{From the Front}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.KEoTccJlfKzMk19l]{From the Shadows}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.jaGIV3t7G07F0qda]{Guns Blazing}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.RIUhD5eldHzBsFIe]{In the Spotlight}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.GTmdHGLcuc11Bizi]{Infosphere Director}</p><p>@UUID[Compendium.sf2e-anachronism.class-features.Item.6cFaxZ4aAhuUbnwi]{Through Desperate Times}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:envoy-leadership-style"
+              ]
+            },
+            "flag": "style",
+            "key": "ChoiceSet",
+            "prompt": "SF2E.SpecificRule.Envoy.LeadershipStyle.Prompt",
+            "selection": "Compendium.sf2e-anachronism.class-features.Item.jaGIV3t7G07F0qda"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.style}",
+            "flag": "gunsBlazing"
+          }
+        ],
+        "slug": "leadership-style",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "envoy"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ZLaTvHKWkfYQ0EZ8"
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/blue-alien-face.webp",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "gunsBlazing": {
+              "id": "rHDjPlZeh2nYSWgB",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.Fni0F4rfaG08nO1Y",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "Lovgkcj8UWUO6m9H",
+      "_key": "!actors.items!jEFaeOEHMrZGsBIu.Lovgkcj8UWUO6m9H"
+    },
+    {
+      "folder": "0U62F6g8AM76yfbe",
+      "name": "Get 'Em!",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You single out an enemy for you and your allies to focus your attacks on. Select an enemy within 60 feet that you can see. You and your allies gain a +1 status bonus to attacks against that target until the beginning of your next turn.</p><p><strong>Lead by Example</strong> If you used two actions, Strike the target. You gain a status bonus to the damage roll equal to your Charisma modifier. Regardless of whether the Strike hits, you and your allies gain a +1 status bonus to damage on subsequent Strikes made against the enemy until the start of your next turn. Increase the damage by 1 at 5th, 10th, 15th, and 20th levels.</p><p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.ey2zSEnprAGgvrij]{Effect: Get 'Em!}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": "get-em",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "directive",
+            "envoy"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "7Cs80jgSUYbTcvEl",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "fHP30ADctrM3v0Wt",
+      "_key": "!actors.items!jEFaeOEHMrZGsBIu.fHP30ADctrM3v0Wt"
+    },
+    {
+      "folder": "0MBmY0ZAzJKrKcYj",
+      "name": "Guns Blazing",
+      "type": "feat",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>You lead your team by making an impression with firepower. Your bombastic personality has a barrage of gunfire to back it up, and you always shoot first.</p><p><strong>Leadership Skill</strong> Acrobatics</p><p><strong>Leadership Perk</strong> You gain @UUID[Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr]{Incredible Initiative} as a bonus feat.</p><p><strong>Leadership Directive</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.RNilk6Evoi0xNbWX]{Ready Arms!}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.sf2e-anachronism.actions.Item.RNilk6Evoi0xNbWX",
+            "flag": "readyArms"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.acrobatics.rank",
+            "value": 1
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr",
+            "flag": "incredibleInitiative"
+          }
+        ],
+        "slug": "guns-blazing",
+        "traits": {
+          "otherTags": [
+            "envoy-leadership-style"
+          ],
+          "value": [
+            "envoy"
+          ],
+          "rarity": "common"
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "img": "modules/sf2e-anachronism/art/icons/abilities/space-machine-gun.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "Lovgkcj8UWUO6m9H",
+            "onDelete": "cascade"
+          },
+          "itemGrants": {
+            "readyArms": {
+              "id": "aayTx7NS8n1OKUAq",
+              "onDelete": "detach"
+            },
+            "incredibleInitiative": {
+              "id": "UlVAtE8zUgxQimOf",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.class-features.Item.jaGIV3t7G07F0qda",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "rHDjPlZeh2nYSWgB",
+      "_key": "!actors.items!jEFaeOEHMrZGsBIu.rHDjPlZeh2nYSWgB"
+    },
+    {
+      "folder": "0U62F6g8AM76yfbe",
+      "name": "Ready Arms!",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.94,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "description": {
+          "value": "<p>With quick commands, you get your allies to ready their equipment. You and all allies within 30 feet can Interact to draw, Switch Hands, or swap weapons as a reaction.</p><p><strong>Lead by Example</strong> If you used two actions, you can Strike, Area Fire, or Auto-Fire with a weapon you drew or swapped to (including by changing active set of hands). If your Strike hits or if a target failed its save against your Area Fire or Auto-Fire, one ally can make a Strike against the same target as a reaction.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "Starfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "rules": [],
+        "slug": "ready-arms",
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "directive",
+            "envoy"
+          ]
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "sort": 162500,
+      "ownership": {
+        "default": 0,
+        "cWwLchXkibIUDc9I": 3,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "rHDjPlZeh2nYSWgB",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.sf2e-anachronism.actions.Item.RNilk6Evoi0xNbWX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_id": "aayTx7NS8n1OKUAq",
+      "_key": "!actors.items!jEFaeOEHMrZGsBIu.aayTx7NS8n1OKUAq"
+    },
+    {
+      "folder": "waujsnHrfCsPk0zO",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Incredible Initiative",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "general",
+        "description": {
+          "value": "<p>You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "initiative",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general"
+          ],
+          "otherTags": []
+        },
+        "slug": "incredible-initiative",
+        "_migration": {
+          "version": 0.953,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CiuRIZ0B5PEDV4mC": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "rHDjPlZeh2nYSWgB",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "UlVAtE8zUgxQimOf",
+      "_key": "!actors.items!jEFaeOEHMrZGsBIu.UlVAtE8zUgxQimOf"
     }
   ],
   "flags": {},
@@ -2871,9 +2902,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "ownership": {
     "default": 1,
