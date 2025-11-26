@@ -50,7 +50,7 @@
           "class:soldier"
         ],
         "type": "piercing",
-        "value": "1 + @armor.system.runes.potency"
+        "value": "1 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
@@ -60,7 +60,7 @@
           "class:soldier"
         ],
         "type": "bludgeoning",
-        "value": "1 + @armor.system.runes.potency"
+        "value": "1 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
@@ -70,7 +70,7 @@
           "class:soldier"
         ],
         "type": "slashing",
-        "value": "1 + @armor.system.runes.potency"
+        "value": "1 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
@@ -80,7 +80,7 @@
           "class:soldier"
         ],
         "type": "piercing",
-        "value": "2 + @armor.system.runes.potency"
+        "value": "2 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
@@ -90,7 +90,7 @@
           "class:soldier"
         ],
         "type": "bludgeoning",
-        "value": "2 + @armor.system.runes.potency"
+        "value": "2 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
@@ -100,7 +100,7 @@
           "class:soldier"
         ],
         "type": "slashing",
-        "value": "2 + @armor.system.runes.potency"
+        "value": "2 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
@@ -110,7 +110,7 @@
           "class:soldier"
         ],
         "type": "precision",
-        "value": "3 + @armor.system.runes.potency"
+        "value": "3 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
@@ -120,11 +120,11 @@
           "class:soldier"
         ],
         "type": "precision",
-        "value": "5 + @armor.system.runes.potency"
+        "value": "5 + @armor.system.traits.config.resilient"
       },
       {
         "key": "Resistance",
-        "value": "1 + @armor.system.runes.potency",
+        "value": "1 + @armor.system.traits.config.resilient",
         "type": [
           "acid",
           "cold",
@@ -139,7 +139,7 @@
       },
       {
         "key": "Resistance",
-        "value": "2 + @armor.system.runes.potency",
+        "value": "2 + @armor.system.traits.config.resilient",
         "type": [
           "acid",
           "cold",
@@ -154,7 +154,7 @@
       },
       {
         "key": "Resistance",
-        "value": "1 + @armor.system.runes.potency",
+        "value": "1 + @armor.system.traits.config.resilient",
         "type": "area-damage",
         "predicate": [
           "armor:category:medium",
@@ -164,7 +164,7 @@
       },
       {
         "key": "Resistance",
-        "value": "2 + @armor.system.runes.potency",
+        "value": "2 + @armor.system.traits.config.resilient",
         "type": "area-damage",
         "predicate": [
           "armor:category:heavy",
@@ -226,9 +226,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "_key": "!items!vt4e3FdwvI3hNkEf"
 }
